@@ -27,8 +27,7 @@
         "noUnusedParameters": true,
         "noFallthroughCasesInSwitch": true,
 
-        /* jest */
-        "types": ["node", "jest"],
+        "types": ["node"],
         "outDir": "./dist",
         "esModuleInterop": true,
 

@@ -32,7 +32,7 @@ type SymbolComponent = {
 };
 
 const meta: Meta = {
-    title: 'Symbols', // Category in Storybook
+    title: 'Icons', // Category in Storybook
     tags: ['autodocs'], // Enable autodocs
 };
 
@@ -138,7 +138,7 @@ const symbols: SymbolComponent[] = [
     },
 ];
 
-export const AllSymbols: StoryObj = {
+export const AllIcons: StoryObj = {
     render: () => (
         <div
             style={{

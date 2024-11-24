@@ -59,11 +59,6 @@ module.exports = {
                         group: 'object',
                         position: 'after',
                     },
-                    {
-                        pattern: '@testing-library/*',
-                        group: 'object',
-                        position: 'after',
-                    },
                 ],
                 pathGroupsExcludedImportTypes: ['builtin'],
                 'newlines-between': 'always',

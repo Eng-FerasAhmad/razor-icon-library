@@ -16,8 +16,8 @@ export default defineConfig({
         }),
     ],
     server: {
-        port: 3033,
-        origin: ' http://127.0.0.1:3033',
+        port: 3037,
+        origin: ' http://127.0.0.1:3037',
     },
     build: {
         lib: {
