@@ -10,9 +10,8 @@ Hier are the components and how to use them in [storybook](https://eng-ferasahma
 
 
 ## Install
-
-    - Razor Shared library is published on node package manager [npm](https://www.npmjs.com/package/razor-icon-library)
-    - Repository: [GitHub](https://github.com/Eng-FerasAhmad/razor-icon-library)
+- Razor Shared library is published on node package manager [npm](https://www.npmjs.com/package/razor-icon-library)
+- Repository: [GitHub](https://github.com/Eng-FerasAhmad/razor-icon-library)
 
 ```js
 npm i razor-icon-library
