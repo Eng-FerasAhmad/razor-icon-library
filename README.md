@@ -1,31 +1,29 @@
-# Razor Shared Library
+# Razor icon Library
 
 ---
 
-This Library is a collection of reusable, high-performance React components built with Material UI (MUI) and designed
-to streamline the development of user interfaces. Each component is highly customizable, themeable,
-and follows accessibility best practices. The components are documented and showcased using Storybook,
+This Library is a collection of custom icons. The icon components are documented and showcased using Storybook,
 providing an interactive environment for testing and visualization.
 
 ## Storybook
-Hier are the components and how to use them in [storybook](https://eng-ferasahmad.github.io/razor-shared-library/?path=/docs/get-started--docs)
+Hier are the components and how to use them in [storybook](https://eng-ferasahmad.github.io/razor-icon-library/?path=/docs/get-started--docs)
 
 
 ## Install
 
-    - Razor Shared library is published on node package manager [npm](https://www.npmjs.com/package/razor-shared-library)
-    - Repository: [GitHub](https://github.com/Eng-FerasAhmad/razor-shared-library)
+    - Razor Shared library is published on node package manager [npm](https://www.npmjs.com/package/razor-icon-library)
+    - Repository: [GitHub](https://github.com/Eng-FerasAhmad/razor-icon-library)
 
 ```js
-npm i razor-shared-library
+npm i razor-icon-library
 ```
 
 ## Getting Started
 
-To use this library, you can browse through the components listed in the sidebar.
+To use this library, you can browse through the icons listed in the sidebar.
 Each component has its own story where you can see usage examples and documentation.
 
-In the Documentation page for each component you can find out how to use the component and copy the code.
+In the Documentation page for each icon component you can find out how to use the component and copy the code.
 
 ### Contributing
 
@@ -37,7 +35,7 @@ adding new features, or enhancing documentation, your input is valuable.
 -   **Clone the Repository:** Clone the repository to your local machine
 
 ```bash
-git clone https://github.com/your-username/your-library-name.git
+git clone https://github.com/Eng-FerasAhmad/razor-icon-library
 ```
 
 -   **Install Dependencies:** install the project dependencies
@@ -99,47 +97,26 @@ npm run storybook
 -   React
 -   Vite
 -   Typescript
--   Material UI
--   Jest
 -   Eslint
 
 ## Components
 
-We are using Material UI, with some custom styling to pass our style system.
-
-The library still in development phase, so any new components and feature of this components will be added as soon as it is ready:
+The library still in development phase, so any new icon components and feature of this components will be added as soon as it is ready:
 
 ### Card
 
 ```tsx
-import { Card } from 'razor-shared-library';
+import { AccountSymbol } from 'razor-icon-library';
 
 export default function Example() {
     return (
-        <Card>
-            <div>card content</div>
-        </Card>
-    );
-}
-```
-
-### Button
-
-```tsx
-import { Button } from 'razor-shared-library';
-
-export default function Example() {
-    return (
-        <Button
-            label="Submit"
-            variant="contained"
-            color="primary"
-            size="medium"
-        />
+        <div>
+            <AccountSymbol size={36} color={green} />
+        </div>
     );
 }
 ```
 
 ## License
 
-[MIT](https://github.com/Eng-FerasAhmad/razor-shared-library/blob/master/LICENSE)
+[MIT](https://github.com/Eng-FerasAhmad/razor-icon-library/blob/master/LICENSE)
