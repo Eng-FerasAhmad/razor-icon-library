@@ -12,6 +12,7 @@ export { EditIconSymbol } from './components/edit/EditIconSymbol';
 export { HandLikeSymbol } from './components/hand-like/HandLikeSymbol';
 export { ImageSymbol } from './components/image/ImageSymbol';
 export { LoginSymbol } from './components/login/LoginSymbol';
+export { LogoutSymbol } from './components/logout/LogoutSymbol';
 export { MailSymbol } from './components/mail/MailSymbol';
 export { RazorSymbol } from './components/razor-logo/RazorSymbol';
 export { RequestsSymbol } from './components/requests/RequestsSymbol';
