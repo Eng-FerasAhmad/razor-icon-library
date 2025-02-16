@@ -1,11 +1,11 @@
 import { ReactElement } from 'react';
 
 interface MessageIconProps {
-    size?: number; // Optional: Size of the icon
-    color?: string; // Optional: Color of the icon
+    size?: number;
+    color?: string;
 }
 
-export default function QuestionSymbol({
+export function QuestionSymbol({
     size = 25,
     color = '#171717',
 }: MessageIconProps): ReactElement {

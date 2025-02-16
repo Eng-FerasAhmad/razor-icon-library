@@ -5,7 +5,7 @@ interface CustomIconProps {
     color?: string;
 }
 
-export default function PaymentSymbol({
+export function PaymentSymbol({
     size = 25,
     color = '#171717',
 }: CustomIconProps): ReactElement {

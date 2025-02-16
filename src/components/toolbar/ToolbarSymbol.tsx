@@ -5,7 +5,7 @@ interface CustomIconProps {
     color?: string;
 }
 
-export default function ToolbarSymbol({
+export function ToolbarSymbol({
     size = 24,
     color = '#171717',
 }: CustomIconProps): ReactElement {

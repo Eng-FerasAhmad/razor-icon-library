@@ -1,11 +1,14 @@
 import { ReactElement } from 'react';
 
-import { IconProps } from 'components/types';
+interface EditIconProps {
+    size?: number;
+    color?: string;
+}
 
-export function EditIconSymbol({
+export function EditSymbol({
     size = 24,
     color = '#171717',
-}: IconProps): ReactElement {
+}: EditIconProps): ReactElement {
     return (
         <svg
             width={size}
@@ -13,9 +16,11 @@ export function EditIconSymbol({
             viewBox="0 0 25 24"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
+            role="img"
+            aria-label="Edit icon"
         >
             <path
-                d="M13.7601 3.59997L5.5501 12.29C5.2401 12.62 4.9401 13.27 4.8801 13.72L4.5101 16.96C4.3801 18.13 5.2201 18.93 6.3801 18.73L9.6001 18.18C10.0501 18.1 10.6801 17.77 10.9901 17.43L19.2001 8.73997C20.6201 7.23997 21.2601 5.52997 19.0501 3.43997C16.8501 1.36997 15.1801 2.09997 13.7601 3.59997Z"
+                d="M13.7603 3.60022L5.55034 12.2902C5.24034 12.6202 4.94034 13.2702 4.88034 13.7202L4.51034 16.9602C4.38034 18.1302 5.22034 18.9302 6.38034 18.7302L9.60034 18.1802C10.0503 18.1002 10.6803 17.7702 10.9903 17.4302L19.2003 8.74022C20.6203 7.24022 21.2603 5.53022 19.0503 3.44022C16.8503 1.37022 15.1803 2.10022 13.7603 3.60022Z"
                 stroke={color}
                 strokeWidth="1.5"
                 strokeMiterlimit="10"
@@ -24,7 +29,7 @@ export function EditIconSymbol({
             />
             <path
                 opacity="0.4"
-                d="M12.3899 5.05005C12.8199 7.81005 15.0599 9.92005 17.8399 10.2"
+                d="M12.3896 5.0498C12.8196 7.8098 15.0596 9.9198 17.8396 10.1998"
                 stroke={color}
                 strokeWidth="1.5"
                 strokeMiterlimit="10"

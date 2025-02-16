@@ -5,7 +5,7 @@ interface EditIconProps {
     color?: string;
 }
 
-export default function EditUserSymbol({
+export function EditUserSymbol({
     size = 24,
     color = '#171717',
 }: EditIconProps): ReactElement {

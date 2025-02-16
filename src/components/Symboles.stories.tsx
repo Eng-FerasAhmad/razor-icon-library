@@ -10,7 +10,6 @@ import { CalendarSymbol } from 'components/calendar/CalendarSymbol';
 import { CalendarEditSymbol } from 'components/calendar-edit/CalendarEditSymbol';
 import { CheckmarkSymbol } from 'components/checkmark/CheckmarkSymbol';
 import { DashboardSymbol } from 'components/dashboard/DashboardSymbol';
-import { EditIconSymbol } from 'components/edit/EditIconSymbol';
 import { HandLikeSymbol } from 'components/hand-like/HandLikeSymbol';
 import { ImageSymbol } from 'components/image/ImageSymbol';
 import { LoginSymbol } from 'components/login/LoginSymbol';
@@ -24,14 +23,26 @@ import { SmsSymbol } from 'components/sms/SmsSymbol';
 import { StarSymbol } from 'components/star/StarSymbole';
 import { VacationSymbol } from 'components/vacation/VacationSymbol';
 import { WizardSymbol } from 'components/wizard/WizardSymbol';
-import EditUserSymbol from 'components/edit-user/EditUser';
-import PaymentSymbol from 'components/payment/PaymentSymbol';
-import ThemeSymbol from 'components/theme/ThemeSymbol';
-import ToolbarSymbol from 'components/toolbar/ToolbarSymbol';
-import AwardSymbol from 'components/award/AwardSymbol';
-import NotificationSymbol from 'components/notification/NotificationSymbol';
-import QuestionSymbol from 'components/question/QuestionSymbol';
-import SearchSymbol from 'components/search/SearchSymbol';
+import { EditUserSymbol } from 'components/edit-user/EditUser';
+import { PaymentSymbol } from 'components/payment/PaymentSymbol';
+import { ThemeSymbol } from 'components/theme/ThemeSymbol';
+import { ToolbarSymbol } from 'components/toolbar/ToolbarSymbol';
+import { AwardSymbol } from 'components/award/AwardSymbol';
+import { NotificationSymbol } from 'components/notification/NotificationSymbol';
+import { QuestionSymbol } from 'components/question/QuestionSymbol';
+import { SearchSymbol } from 'components/search/SearchSymbol';
+import { AddCircleSymbol } from 'components/add-circle/AddCircleSymbol';
+import { ArrowDownSymbol } from 'components/arrow-down/ArrowDownSymbol';
+import { ArrowUpSymbol } from 'components/arrow-up/ArrowUpSymbol';
+import { CalendarCheckSymbol } from 'components/calendar-check/CalendarCheck';
+import { ClockSymbol } from 'components/clock/ClockSymbol';
+import { CloseSymbol } from 'components/close/CloseSymbol';
+import { DeleteSymbol } from 'components/delete/DeleteSymbol';
+import { EditSymbol } from 'components/edit/EditSymbol';
+import { MenuSymbol } from 'components/menu/MenuSymbol';
+import { OutlineClockSymbol } from 'components/clock-outline/OutlineClockSymbol';
+import { TimerSymbol } from 'components/timer/TimerSymbol';
+import { UserSymbol } from 'components/user/UserSymbol';
 
 // Define a type for components in the symbols array
 type SymbolComponent = {
@@ -53,12 +64,20 @@ const symbols: SymbolComponent[] = [
         name: 'AccountSymbol',
     },
     {
+        Component: AddCircleSymbol,
+        name: 'AddCircleSymbol',
+    },
+    {
         Component: AddUserSymbol,
         name: 'AddUserSymbol',
     },
     {
         Component: AnalyticsSymbol,
         name: 'AnalyticsSymbol',
+    },
+    {
+        Component: ArrowDownSymbol,
+        name: 'ArrowDownSymbol',
     },
     {
         Component: AppleSymbol,
@@ -73,12 +92,32 @@ const symbols: SymbolComponent[] = [
         name: 'ArrowPrevSymbol',
     },
     {
+        Component: ArrowUpSymbol,
+        name: 'ArrowUpSymbol',
+    },
+    {
+        Component: CalendarCheckSymbol,
+        name: 'CalendarCheckSymbol',
+    },
+    {
         Component: AwardSymbol,
         name: 'AwardSymbol',
     },
     {
         Component: CalendarSymbol,
         name: 'CalendarSymbol',
+    },
+    {
+        Component: ClockSymbol,
+        name: 'ClockSymbol',
+    },
+    {
+        Component: OutlineClockSymbol,
+        name: 'OutlineClockSymbol',
+    },
+    {
+        Component: CloseSymbol,
+        name: 'CloseSymbol',
     },
     {
         Component: CalendarEditSymbol,
@@ -93,8 +132,12 @@ const symbols: SymbolComponent[] = [
         name: 'DashboardSymbol',
     },
     {
-        Component: EditIconSymbol,
-        name: 'EditIconSymbol',
+        Component: DeleteSymbol,
+        name: 'DeleteSymbol',
+    },
+    {
+        Component: EditSymbol,
+        name: 'EditSymbol',
     },
     {
         Component: EditUserSymbol,
@@ -115,6 +158,10 @@ const symbols: SymbolComponent[] = [
     {
         Component: MailSymbol,
         name: 'MailSymbol',
+    },
+    {
+        Component: MenuSymbol,
+        name: 'MenuSymbol',
     },
     {
         Component: NotificationSymbol,
@@ -161,6 +208,10 @@ const symbols: SymbolComponent[] = [
         name: 'StarSymbol',
     },
     {
+        Component: TimerSymbol,
+        name: 'TimerSymbol',
+    },
+    {
         Component: ThemeSymbol,
         name: 'ThemeSymbol',
     },
@@ -171,6 +222,10 @@ const symbols: SymbolComponent[] = [
     {
         Component: VacationSymbol,
         name: 'VacationSymbol',
+    },
+    {
+        Component: UserSymbol,
+        name: 'UserSymbol',
     },
     {
         Component: WizardSymbol,

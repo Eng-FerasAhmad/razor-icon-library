@@ -5,7 +5,7 @@ interface CustomIconProps {
     color?: string;
 }
 
-export default function ThemeSymbol({
+export function ThemeSymbol({
     size = 24,
     color = '#171717',
 }: CustomIconProps): ReactElement {

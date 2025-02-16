@@ -5,7 +5,7 @@ interface ArrowDownSymbolProps {
     color?: string;
 }
 
-export default function AwardSymbol({
+export function AwardSymbol({
     size = 36,
     color = '#171717',
 }: ArrowDownSymbolProps): ReactElement {
