@@ -6,7 +6,7 @@ import { AddUserSymbol } from 'components/add-user/AddUserSymbol';
 import { AnalyticsSymbol } from 'components/analytics/AnalyticsSymbol';
 import { ArrowNextSymbol } from 'components/arrow-next/ArrowNextSymbol';
 import { ArrowPrevSymbol } from 'components/arrow-prev/ArrowPrevSymbol';
-import { CalendarSymbole } from 'components/calendar/CalendarSymbole';
+import { CalendarSymbol } from 'components/calendar/CalendarSymbol';
 import { CalendarEditSymbol } from 'components/calendar-edit/CalendarEditSymbol';
 import { CheckmarkSymbol } from 'components/checkmark/CheckmarkSymbol';
 import { DashboardSymbol } from 'components/dashboard/DashboardSymbol';
@@ -24,6 +24,14 @@ import { SmsSymbol } from 'components/sms/SmsSymbol';
 import { StarSymbol } from 'components/star/StarSymbole';
 import { VacationSymbol } from 'components/vacation/VacationSymbol';
 import { WizardSymbol } from 'components/wizard/WizardSymbol';
+import EditUserSymbol from 'components/edit-user/EditUser';
+import PaymentSymbol from 'components/payment/PaymentSymbol';
+import ThemeSymbol from 'components/theme/ThemeSymbol';
+import ToolbarSymbol from 'components/toolbar/ToolbarSymbol';
+import AwardSymbol from 'components/award/AwardSymbol';
+import NotificationSymbol from 'components/notification/NotificationSymbol';
+import QuestionSymbol from 'components/question/QuestionSymbol';
+import SearchSymbol from 'components/search/SearchSymbol';
 
 // Define a type for components in the symbols array
 type SymbolComponent = {
@@ -65,8 +73,12 @@ const symbols: SymbolComponent[] = [
         name: 'ArrowPrevSymbol',
     },
     {
-        Component: CalendarSymbole,
-        name: 'CalendarSymbole',
+        Component: AwardSymbol,
+        name: 'AwardSymbol',
+    },
+    {
+        Component: CalendarSymbol,
+        name: 'CalendarSymbol',
     },
     {
         Component: CalendarEditSymbol,
@@ -85,6 +97,10 @@ const symbols: SymbolComponent[] = [
         name: 'EditIconSymbol',
     },
     {
+        Component: EditUserSymbol,
+        name: 'EditUserSymbol',
+    },
+    {
         Component: HandLikeSymbol,
         name: 'HandLikeSymbol',
     },
@@ -101,12 +117,28 @@ const symbols: SymbolComponent[] = [
         name: 'MailSymbol',
     },
     {
+        Component: NotificationSymbol,
+        name: 'NotificationSymbol',
+    },
+    {
+        Component: PaymentSymbol,
+        name: 'PaymentSymbol',
+    },
+    {
+        Component: QuestionSymbol,
+        name: 'QuestionSymbol',
+    },
+    {
         Component: RazorSymbol,
         name: 'RazorSymbol',
     },
     {
         Component: RequestsSymbol,
         name: 'RequestsSymbol',
+    },
+    {
+        Component: SearchSymbol,
+        name: 'SearchSymbol',
     },
     {
         Component: SettingSymbol,
@@ -127,6 +159,14 @@ const symbols: SymbolComponent[] = [
     {
         Component: StarSymbol,
         name: 'StarSymbol',
+    },
+    {
+        Component: ThemeSymbol,
+        name: 'ThemeSymbol',
+    },
+    {
+        Component: ToolbarSymbol,
+        name: 'ToolbarSymbol',
     },
     {
         Component: VacationSymbol,

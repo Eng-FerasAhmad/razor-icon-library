@@ -4,7 +4,7 @@ export { AddUserSymbol } from './components/add-user/AddUserSymbol';
 export { AnalyticsSymbol } from './components/analytics/AnalyticsSymbol';
 export { ArrowNextSymbol } from './components/arrow-next/ArrowNextSymbol';
 export { ArrowPrevSymbol } from './components/arrow-prev/ArrowPrevSymbol';
-export { CalendarSymbole } from './components/calendar/CalendarSymbole';
+export { CalendarSymbol } from 'components/calendar/CalendarSymbol';
 export { CalendarEditSymbol } from './components/calendar-edit/CalendarEditSymbol';
 export { CheckmarkSymbol } from './components/checkmark/CheckmarkSymbol';
 export { DashboardSymbol } from './components/dashboard/DashboardSymbol';

@@ -2,7 +2,7 @@ import { ReactElement } from 'react';
 
 import { IconProps } from 'components/types';
 
-export function CalendarSymbole({
+export function CalendarSymbol({
     size = 24,
     color = '#171717',
 }: IconProps): ReactElement {
