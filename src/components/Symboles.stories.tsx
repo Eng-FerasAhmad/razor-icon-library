@@ -43,6 +43,9 @@ import { MenuSymbol } from 'components/menu/MenuSymbol';
 import { OutlineClockSymbol } from 'components/clock-outline/OutlineClockSymbol';
 import { TimerSymbol } from 'components/timer/TimerSymbol';
 import { UserSymbol } from 'components/user/UserSymbol';
+import { CallSymbol } from 'components/call/CallSymbol';
+import { BirthdaySymbol } from 'components/birthday/Birthday';
+import { LocationSymbol } from 'components/location/LocationSymbol';
 
 // Define a type for components in the symbols array
 type SymbolComponent = {
@@ -230,6 +233,18 @@ const symbols: SymbolComponent[] = [
     {
         Component: WizardSymbol,
         name: 'WizardSymbol',
+    },
+    {
+        Component: CallSymbol,
+        name: 'CallSymbol',
+    },
+    {
+        Component: BirthdaySymbol,
+        name: 'BirthdaySymbol',
+    },
+    {
+        Component: LocationSymbol,
+        name: 'LocationSymbol',
     },
 ];
 

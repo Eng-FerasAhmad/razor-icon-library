@@ -42,3 +42,6 @@ export { MenuSymbol } from './components/menu/MenuSymbol';
 export { OutlineClockSymbol } from './components/clock-outline/OutlineClockSymbol';
 export { TimerSymbol } from './components/timer/TimerSymbol';
 export { UserSymbol } from './components/user/UserSymbol';
+export { CallSymbol } from './components/call/CallSymbol';
+export { BirthdaySymbol } from './components/birthday/Birthday';
+export { LocationSymbol } from './components/location/LocationSymbol';
