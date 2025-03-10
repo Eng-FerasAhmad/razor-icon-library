@@ -45,3 +45,5 @@ export { UserSymbol } from './components/user/UserSymbol';
 export { CallSymbol } from './components/call/CallSymbol';
 export { BirthdaySymbol } from './components/birthday/Birthday';
 export { LocationSymbol } from './components/location/LocationSymbol';
+export { UsersSymbol } from './components/users/UsersSymbol';
+export { BoardSymbol } from './components/board/BoardSymbol';
