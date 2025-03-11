@@ -19,7 +19,7 @@ export { SettingSymbol } from './components/setting/SettingSymbol';
 export { ShopSymbol } from './components/shop/ShopSymbol';
 export { SignupSymbol } from './components/signup/SignupSymbol';
 export { SmsSymbol } from './components/sms/SmsSymbol';
-export { StarSymbol } from './components/star/StarSymbole';
+export { StarSymbol } from 'components/star/StarSymbol';
 export { VacationSymbol } from './components/vacation/VacationSymbol';
 export { WizardSymbol } from './components/wizard/WizardSymbol';
 export { EditUserSymbol } from './components/edit-user/EditUser';
