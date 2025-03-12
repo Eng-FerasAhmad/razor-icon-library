@@ -44,7 +44,7 @@ import { TimerSymbol } from '../src';
 import { UserSymbol } from '../src';
 import { CallSymbol } from '../src';
 import { BirthdaySymbol } from '../src';
-import { LocationSymbol } from '../src';
+import { LocationSymbol, BoardSymbol, UsersSymbol } from '../src';
 
 // Define a type for components in the symbols array
 type SymbolComponent = {
@@ -245,6 +245,14 @@ const symbols: SymbolComponent[] = [
         Component: LocationSymbol,
         name: 'LocationSymbol',
     },
+    {
+        Component: BoardSymbol,
+        name: 'BoardSymbol',
+    },
+    {
+        Component: UsersSymbol,
+        name: 'UsersSymbol',
+    },
 ];
 
 export const AllIcons: StoryObj = {
@@ -268,7 +276,7 @@ export const AllIcons: StoryObj = {
                         flexDirection: 'column',
                         alignItems: 'center',
                         textAlign: 'center',
-                        width: '100px',
+                        width: '130px',
                         gap: '16px',
                     }}
                 >

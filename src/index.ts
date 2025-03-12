@@ -1,9 +1,73 @@
+// archive
+export { ArchiveTick } from 'components/_archive/archive-tick/ArchiveTick';
+
+// arrow
+export { ArrowNextSymbol } from 'components/_arrow/arrow-next/ArrowNextSymbol';
+export { ArrowPrevSymbol } from 'components/_arrow/arrow-prev/ArrowPrevSymbol';
+export { ArrowDownSymbol } from 'components/_arrow/arrow-down/ArrowDownSymbol';
+export { ArrowUpSymbol } from 'components/_arrow/arrow-up/ArrowUpSymbol';
+
+// astrology
+
+// brands
+
+// building
+
+// business
+
+// call
+
+// cars
+
+// content
+
+// crypto
+
+// delivery
+
+// design
+
+// device
+
+// essential
+
+// files
+
+// grid
+
+// learning
+
+// like
+
+// location
+
+// mails
+
+// media
+
+// money
+
+// notification
+
+// paragraph
+
+// programing
+
+// security
+
+// settings
+
+// time
+
+// users
+
+// weather
+
 export { AppleSymbol } from './components/apple/AppleSymbol';
 export { AccountSymbol } from './components/account/AccountSymbol';
 export { AddUserSymbol } from './components/add-user/AddUserSymbol';
 export { AnalyticsSymbol } from './components/analytics/AnalyticsSymbol';
-export { ArrowNextSymbol } from './components/arrow-next/ArrowNextSymbol';
-export { ArrowPrevSymbol } from './components/arrow-prev/ArrowPrevSymbol';
+
 export { CalendarSymbol } from './components/calendar/CalendarSymbol';
 export { CalendarEditSymbol } from './components/calendar-edit/CalendarEditSymbol';
 export { CheckmarkSymbol } from './components/checkmark/CheckmarkSymbol';
@@ -31,8 +95,6 @@ export { NotificationSymbol } from './components/notification/NotificationSymbol
 export { QuestionSymbol } from './components/question/QuestionSymbol';
 export { SearchSymbol } from './components/search/SearchSymbol';
 export { AddCircleSymbol } from './components/add-circle/AddCircleSymbol';
-export { ArrowDownSymbol } from './components/arrow-down/ArrowDownSymbol';
-export { ArrowUpSymbol } from './components/arrow-up/ArrowUpSymbol';
 export { CalendarCheckSymbol } from './components/calendar-check/CalendarCheck';
 export { ClockSymbol } from './components/clock/ClockSymbol';
 export { CloseSymbol } from './components/close/CloseSymbol';

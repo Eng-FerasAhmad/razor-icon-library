@@ -1,14 +1,14 @@
 import { ReactElement } from 'react';
 
-interface ArrowDownSymbolProps {
+interface ArrowNextSymbolProps {
     size?: number;
     color?: string;
 }
 
-export function ArrowUpSymbol({
-    size = 36,
+export function ArrowDownSymbol({
+    size = 24,
     color = '#171717',
-}: ArrowDownSymbolProps): ReactElement {
+}: ArrowNextSymbolProps): ReactElement {
     return (
         <svg
             width={size}
@@ -17,10 +17,10 @@ export function ArrowUpSymbol({
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
             role="img"
-            aria-label="Down arrow icon"
+            aria-label="Next arrow icon"
         >
             <path
-                d="M19.9201 15.0501L13.4001 8.53014C12.6301 7.76014 11.3701 7.76014 10.6001 8.53014L4.08008 15.0501"
+                d="M19.9201 8.9502L13.4001 15.4702C12.6301 16.2402 11.3701 16.2402 10.6001 15.4702L4.08008 8.9502"
                 stroke={color}
                 strokeWidth="1.5"
                 strokeMiterlimit="10"
