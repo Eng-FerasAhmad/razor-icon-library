@@ -1,7 +1,6 @@
 import { Meta, StoryObj } from '@storybook/react';
 
 import { MenuSymbol } from './menu/MenuSymbol';
-import { NotificationSymbol } from './notification/NotificationSymbol';
 import { AnalyticsSymbol } from './analytics/AnalyticsSymbol';
 
 import StoryTemplate, { SymbolComponent } from 'components/StoryTemplate';
@@ -18,10 +17,6 @@ const symbols: SymbolComponent[] = [
     {
         Component: MenuSymbol,
         name: 'MenuSymbol',
-    },
-    {
-        Component: NotificationSymbol,
-        name: 'NotificationSymbol',
     },
     {
         Component: AnalyticsSymbol,

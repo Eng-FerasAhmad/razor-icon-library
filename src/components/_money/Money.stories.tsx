@@ -1,12 +1,11 @@
 import { Meta, StoryObj } from '@storybook/react';
 
-import { PaymentSymbol } from './payment/PaymentSymbol';
-import { RequestsSymbol } from './requests/RequestsSymbol';
+import { VisaCard } from './visa-card/VisaCard';
 
 import StoryTemplate, { SymbolComponent } from 'components/StoryTemplate';
 
 const meta: Meta = {
-    title: 'Business',
+    title: 'Money',
     tags: ['autodocs'],
 };
 
@@ -15,12 +14,8 @@ export default meta;
 // Define all symbols with their respective props
 const symbols: SymbolComponent[] = [
     {
-        Component: PaymentSymbol,
-        name: 'PaymentSymbol',
-    },
-    {
-        Component: RequestsSymbol,
-        name: 'RequestsSymbol',
+        Component: VisaCard,
+        name: 'VisaCard',
     },
 ];
 

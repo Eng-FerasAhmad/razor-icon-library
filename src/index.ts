@@ -8,63 +8,89 @@ export { ArrowDownSymbol } from 'components/_arrow/arrow-down/ArrowDownSymbol';
 export { ArrowUpSymbol } from 'components/_arrow/arrow-up/ArrowUpSymbol';
 
 // astrology
+export { VuesaxSymbol } from 'components/_astrology/vuesax/VuesaxSymbol';
 
 // brands
 export { AppleSymbol } from 'components/_brands/apple/AppleSymbol';
 
 // building
+export { QuestionSymbol } from 'components/_building/question/QuestionSymbol';
 
 // business
+export { PaymentSymbol } from 'components/_business/payment/PaymentSymbol';
+export { RequestsSymbol } from './components/_business/requests/RequestsSymbol';
 
 // calendar
 export { CalendarSymbol } from 'components/_calendar/calendar/CalendarSymbol';
 export { CalendarEditSymbol } from 'components/_calendar/calendar-edit/CalendarEditSymbol';
 export { CalendarCheckSymbol } from 'components/_calendar/calendar-check/CalendarCheck';
-
-// call
+export { ClockSymbol } from 'components/_calendar/clock/ClockSymbol';
+export { OutlineClockSymbol } from 'components/_calendar/clock-outline/OutlineClockSymbol';
+export { TimerSymbol } from 'components/_calendar/timer/TimerSymbol';
 
 // cars
-
-// content
-
-// crypto
+export { ShipSymbol } from 'components/_cars/ship/ShipSymbol';
 
 // delivery
+export { ToolbarSymbol } from 'components/_delivery/toolbar/ToolbarSymbol';
+export { WizardSymbol } from 'components/_delivery/wizard/WizardSymbol';
 
 // design
+export { ThemeSymbol } from 'components/_design/theme/ThemeSymbol';
 
 // device
+export { MicroscopeSymbol } from 'components/_device/microscope/MicroscopeSymbol';
 
 // essential
+export { MenuSymbol } from 'components/_essential/menu/MenuSymbol';
+export { AnalyticsSymbol } from 'components/_essential/analytics/AnalyticsSymbol';
 
 // files
+export { AddCircleSymbol } from 'components/_files/add-circle/AddCircleSymbol';
+export { CloseSymbol } from 'components/_files/close/CloseSymbol';
+export { DeleteSymbol } from 'components/_files/delete/DeleteSymbol';
+export { EditSymbol } from 'components/_files/edit/EditSymbol';
+export { ImageSymbol } from 'components/_files/image/ImageSymbol';
+export { SearchSymbol } from 'components/_files/search/SearchSymbol';
 
 // grid
+export { BoardSymbol } from 'components/_grid/board/BoardSymbol';
+export { DashboardSymbol } from 'components/_grid/dashboard/DashboardSymbol';
 
 // learning
+export { TeacherSymbol } from 'components/_learning/teacher/TeacherSymbol';
 
 // like
+export { HandLikeSymbol } from 'components/_like/hand-like/HandLikeSymbol';
+export { AwardSymbol } from 'components/_like/award/AwardSymbol';
+export { StarSymbol } from 'components/_like/star/StarSymbol';
+export { CheckmarkSymbol } from 'components/_like/checkmark/CheckmarkSymbol';
 
 // location
 export { LocationSymbol } from 'components/_location/location/LocationSymbol';
 
 // mails
-
-// media
+export { MailSymbol } from 'components/_mails/mail/MailSymbol';
+export { CallSymbol } from 'components/_mails/call/CallSymbol';
+export { SmsSymbol } from 'components/_mails/sms/SmsSymbol';
 
 // money
+export { VisaCard } from 'components/_money/visa-card/VisaCard';
 
 // notification
-
-// paragraph
+export { NotificationSymbol } from 'components/_notification/notification/NotificationSymbol';
 
 // programing
+export { GitArrow } from 'components/_programing/git-arrow/GitArrow';
 
 // security
+export { SecuritySafe } from 'components/_security/security-safe/SecuritySafe';
 
 // settings
+export { SettingSymbol } from 'components/_settings/setting/SettingSymbol';
 
-// time
+// shop
+export { ShopSymbol } from 'components/_shop/shop/ShopSymbol';
 
 // users
 export { AccountSymbol } from 'components/_users/account/AccountSymbol';
@@ -75,38 +101,10 @@ export { LogoutSymbol } from 'components/_users/logout/LogoutSymbol';
 export { SignupSymbol } from 'components/_users/signup/SignupSymbol';
 export { EditUserSymbol } from 'components/_users/edit-user/EditUser';
 export { UserSymbol } from 'components/_users/user/UserSymbol';
+export { BirthdaySymbol } from 'components/_users/birthday/Birthday';
 
 // weather
+export { SunSymbol } from 'components/_weather/sun/SunSymbol';
 
-export { AnalyticsSymbol } from './components/analytics/AnalyticsSymbol';
-export { CheckmarkSymbol } from './components/checkmark/CheckmarkSymbol';
-export { DashboardSymbol } from './components/dashboard/DashboardSymbol';
-export { HandLikeSymbol } from './components/hand-like/HandLikeSymbol';
-export { ImageSymbol } from './components/image/ImageSymbol';
-export { MailSymbol } from './components/mail/MailSymbol';
-export { RazorSymbol } from './components/razor-logo/RazorSymbol';
-export { RequestsSymbol } from './components/requests/RequestsSymbol';
-export { SettingSymbol } from './components/setting/SettingSymbol';
-export { ShopSymbol } from './components/shop/ShopSymbol';
-export { SmsSymbol } from './components/sms/SmsSymbol';
-export { StarSymbol } from 'components/star/StarSymbol';
-export { VacationSymbol } from './components/vacation/VacationSymbol';
-export { WizardSymbol } from './components/wizard/WizardSymbol';
-export { PaymentSymbol } from './components/payment/PaymentSymbol';
-export { ThemeSymbol } from './components/theme/ThemeSymbol';
-export { ToolbarSymbol } from './components/toolbar/ToolbarSymbol';
-export { AwardSymbol } from './components/award/AwardSymbol';
-export { NotificationSymbol } from './components/notification/NotificationSymbol';
-export { QuestionSymbol } from './components/question/QuestionSymbol';
-export { SearchSymbol } from './components/search/SearchSymbol';
-export { AddCircleSymbol } from './components/add-circle/AddCircleSymbol';
-export { ClockSymbol } from './components/clock/ClockSymbol';
-export { CloseSymbol } from './components/close/CloseSymbol';
-export { DeleteSymbol } from './components/delete/DeleteSymbol';
-export { EditSymbol } from './components/edit/EditSymbol';
-export { MenuSymbol } from './components/menu/MenuSymbol';
-export { OutlineClockSymbol } from './components/clock-outline/OutlineClockSymbol';
-export { TimerSymbol } from './components/timer/TimerSymbol';
-export { CallSymbol } from 'components/_mails/call/CallSymbol';
-export { BirthdaySymbol } from 'components/_users/birthday/Birthday';
-export { BoardSymbol } from './components/board/BoardSymbol';
+// razor
+export { RazorSymbol } from 'components/razor-logo/RazorSymbol';
