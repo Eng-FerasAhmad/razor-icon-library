@@ -1,8 +1,9 @@
 import { Meta, StoryObj } from '@storybook/react';
 
-import { BoardSymbol } from './board/BoardSymbol';
 import { DashboardSymbol } from './dashboard/DashboardSymbol';
 
+import { BoardOutline } from 'components/_grid/board-outline/BoardOutline';
+import { BoardBold } from 'components/_grid/board-bold/BoardBold';
 import StoryTemplate, { SymbolComponent } from 'components/StoryTemplate';
 
 const meta: Meta = {
@@ -15,8 +16,12 @@ export default meta;
 // Define all symbols with their respective props
 const symbols: SymbolComponent[] = [
     {
-        Component: BoardSymbol,
-        name: 'BoardSymbol',
+        Component: BoardOutline,
+        name: 'BoardOutline',
+    },
+    {
+        Component: BoardBold,
+        name: 'BoardBold',
     },
     {
         Component: DashboardSymbol,

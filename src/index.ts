@@ -56,7 +56,8 @@ export { GalleryOutline } from 'components/_files/gallery-outline/GalleryOutline
 export { SearchOutline } from 'components/_files/search/SearchOutline';
 
 // grid
-export { BoardSymbol } from 'components/_grid/board/BoardSymbol';
+export { BoardOutline } from 'components/_grid/board-outline/BoardOutline';
+export { BoardBold } from 'components/_grid/board-bold/BoardBold';
 export { DashboardSymbol } from 'components/_grid/dashboard/DashboardSymbol';
 
 // learning
@@ -89,7 +90,8 @@ export { GitArrow } from 'components/_programing/git-arrow/GitArrow';
 export { SecuritySafe } from 'components/_security/security-safe/SecuritySafe';
 
 // settings
-export { SettingSymbol } from 'components/_settings/setting/SettingSymbol';
+export { SettingsBold } from 'components/_settings/settings-bold/SettingsBold';
+export { SettingsOutline } from 'components/_settings/settings-outline/SettingsOutline';
 
 // shop
 export { ShopSymbol } from 'components/_shop/shop/ShopSymbol';

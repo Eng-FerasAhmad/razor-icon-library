@@ -1,7 +1,7 @@
 import { Meta, StoryObj } from '@storybook/react';
 
-import { SettingSymbol } from './setting/SettingSymbol';
-
+import { SettingsBold } from 'components/_settings/settings-bold/SettingsBold';
+import { SettingsOutline } from 'components/_settings/settings-outline/SettingsOutline';
 import StoryTemplate, { SymbolComponent } from 'components/StoryTemplate';
 
 const meta: Meta = {
@@ -14,8 +14,12 @@ export default meta;
 // Define all symbols with their respective props
 const symbols: SymbolComponent[] = [
     {
-        Component: SettingSymbol,
-        name: 'SettingSymbol',
+        Component: SettingsBold,
+        name: 'SettingsBold',
+    },
+    {
+        Component: SettingsOutline,
+        name: 'SettingsOutline',
     },
 ];
 

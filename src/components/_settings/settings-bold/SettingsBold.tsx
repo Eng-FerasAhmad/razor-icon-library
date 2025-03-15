@@ -2,7 +2,7 @@ import { ReactElement } from 'react';
 
 import { IconProps } from 'components/types';
 
-export function SettingSymbol({
+export function SettingsBold({
     size = 24,
     color = '#171717',
 }: IconProps): ReactElement {
