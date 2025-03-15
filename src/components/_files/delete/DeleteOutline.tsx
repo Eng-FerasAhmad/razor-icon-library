@@ -5,7 +5,7 @@ interface TrashBinSymbolProps {
     color?: string;
 }
 
-export function DeleteSymbol({
+export function DeleteOutline({
     size = 24,
     color = '#171717',
 }: TrashBinSymbolProps): ReactElement {

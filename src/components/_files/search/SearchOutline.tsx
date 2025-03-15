@@ -5,7 +5,7 @@ interface SearchIconProps {
     color?: string;
 }
 
-export function SearchSymbol({
+export function SearchOutline({
     size = 24,
     color = '#171717',
 }: SearchIconProps): ReactElement {

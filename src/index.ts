@@ -46,12 +46,14 @@ export { MenuSymbol } from 'components/_essential/menu/MenuSymbol';
 export { AnalyticsSymbol } from 'components/_essential/analytics/AnalyticsSymbol';
 
 // files
-export { AddCircleSymbol } from 'components/_files/add-circle/AddCircleSymbol';
-export { CloseSymbol } from 'components/_files/close/CloseSymbol';
-export { DeleteSymbol } from 'components/_files/delete/DeleteSymbol';
-export { EditSymbol } from 'components/_files/edit/EditSymbol';
-export { ImageSymbol } from 'components/_files/image/ImageSymbol';
-export { SearchSymbol } from 'components/_files/search/SearchSymbol';
+export { AddCircleOutline } from 'components/_files/add-circle/AddCircleOutline';
+export { CloseOutline } from 'components/_files/close/CloseOutline';
+export { DeleteOutline } from 'components/_files/delete/DeleteOutline';
+export { EditOutline } from 'components/_files/edit/EditOutline';
+export { GalleryTwotone } from 'components/_files/gallery-twotone/GalleryTwotone';
+export { GalleryBold } from 'components/_files/gallery-bold/GalleryBold';
+export { GalleryOutline } from 'components/_files/gallery-outline/GalleryOutline';
+export { SearchOutline } from 'components/_files/search/SearchOutline';
 
 // grid
 export { BoardSymbol } from 'components/_grid/board/BoardSymbol';

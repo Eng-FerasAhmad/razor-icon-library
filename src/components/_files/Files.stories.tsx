@@ -1,12 +1,14 @@
 import { Meta, StoryObj } from '@storybook/react';
 
-import { AddCircleSymbol } from './add-circle/AddCircleSymbol';
-import { CloseSymbol } from './close/CloseSymbol';
-import { DeleteSymbol } from './delete/DeleteSymbol';
-import { EditSymbol } from './edit/EditSymbol';
-import { ImageSymbol } from './image/ImageSymbol';
-import { SearchSymbol } from './search/SearchSymbol';
+import { AddCircleOutline } from './add-circle/AddCircleOutline';
+import { CloseOutline } from './close/CloseOutline';
+import { DeleteOutline } from './delete/DeleteOutline';
+import { EditOutline } from './edit/EditOutline';
+import { SearchOutline } from './search/SearchOutline';
 
+import { GalleryTwotone } from 'components/_files/gallery-twotone/GalleryTwotone';
+import { GalleryBold } from 'components/_files/gallery-bold/GalleryBold';
+import { GalleryOutline } from 'components/_files/gallery-outline/GalleryOutline';
 import StoryTemplate, { SymbolComponent } from 'components/StoryTemplate';
 
 const meta: Meta = {
@@ -19,28 +21,36 @@ export default meta;
 // Define all symbols with their respective props
 const symbols: SymbolComponent[] = [
     {
-        Component: AddCircleSymbol,
-        name: 'AddCircleSymbol',
+        Component: AddCircleOutline,
+        name: 'AddCircleOutline',
     },
     {
-        Component: CloseSymbol,
-        name: 'CloseSymbol',
+        Component: CloseOutline,
+        name: 'CloseOutline',
     },
     {
-        Component: DeleteSymbol,
-        name: 'DeleteSymbol',
+        Component: DeleteOutline,
+        name: 'DeleteOutline',
     },
     {
-        Component: EditSymbol,
-        name: 'EditSymbol',
+        Component: EditOutline,
+        name: 'EditOutline',
     },
     {
-        Component: ImageSymbol,
-        name: 'ImageSymbol',
+        Component: GalleryTwotone,
+        name: 'GalleryTwotone',
     },
     {
-        Component: SearchSymbol,
-        name: 'SearchSymbol',
+        Component: GalleryBold,
+        name: 'GalleryBold',
+    },
+    {
+        Component: GalleryOutline,
+        name: 'GalleryOutline',
+    },
+    {
+        Component: SearchOutline,
+        name: 'SearchOutline',
     },
 ];
 

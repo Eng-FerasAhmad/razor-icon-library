@@ -1,11 +1,14 @@
 import { ReactElement } from 'react';
 
-import { IconProps } from 'components/types';
+interface EditIconProps {
+    size?: number;
+    color?: string;
+}
 
-export function ImageSymbol({
+export function EditOutline({
     size = 24,
     color = '#171717',
-}: IconProps): ReactElement {
+}: EditIconProps): ReactElement {
     return (
         <svg
             width={size}
@@ -13,27 +16,32 @@ export function ImageSymbol({
             viewBox="0 0 25 24"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
+            role="img"
+            aria-label="Edit icon"
         >
             <path
-                d="M9.5 22H15.5C20.5 22 22.5 20 22.5 15V9C22.5 4 20.5 2 15.5 2H9.5C4.5 2 2.5 4 2.5 9V15C2.5 20 4.5 22 9.5 22Z"
+                d="M13.7603 3.60022L5.55034 12.2902C5.24034 12.6202 4.94034 13.2702 4.88034 13.7202L4.51034 16.9602C4.38034 18.1302 5.22034 18.9302 6.38034 18.7302L9.60034 18.1802C10.0503 18.1002 10.6803 17.7702 10.9903 17.4302L19.2003 8.74022C20.6203 7.24022 21.2603 5.53022 19.0503 3.44022C16.8503 1.37022 15.1803 2.10022 13.7603 3.60022Z"
                 stroke={color}
                 strokeWidth="1.5"
+                strokeMiterlimit="10"
                 strokeLinecap="round"
                 strokeLinejoin="round"
             />
             <path
                 opacity="0.4"
-                d="M9.5 10C10.6046 10 11.5 9.10457 11.5 8C11.5 6.89543 10.6046 6 9.5 6C8.39543 6 7.5 6.89543 7.5 8C7.5 9.10457 8.39543 10 9.5 10Z"
+                d="M12.3896 5.0498C12.8196 7.8098 15.0596 9.9198 17.8396 10.1998"
                 stroke={color}
                 strokeWidth="1.5"
+                strokeMiterlimit="10"
                 strokeLinecap="round"
                 strokeLinejoin="round"
             />
             <path
                 opacity="0.4"
-                d="M3.17001 18.9501L8.10001 15.6401C8.89001 15.1101 10.03 15.1701 10.74 15.7801L11.07 16.0701C11.85 16.7401 13.11 16.7401 13.89 16.0701L18.05 12.5001C18.83 11.8301 20.09 11.8301 20.87 12.5001L22.5 13.9001"
+                d="M3.5 22H21.5"
                 stroke={color}
                 strokeWidth="1.5"
+                strokeMiterlimit="10"
                 strokeLinecap="round"
                 strokeLinejoin="round"
             />
