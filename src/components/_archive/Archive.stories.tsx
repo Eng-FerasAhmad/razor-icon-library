@@ -1,6 +1,6 @@
 import { Meta, StoryObj } from '@storybook/react';
 
-import { ArchiveTick } from './archive-tick/ArchiveTick';
+import { ArchiveTickOutline } from './archive-tick/ArchiveTickOutline';
 
 import StoryTemplate, { SymbolComponent } from 'components/StoryTemplate';
 
@@ -14,8 +14,8 @@ export default meta;
 // Define all symbols with their respective props
 const symbols: SymbolComponent[] = [
     {
-        Component: ArchiveTick,
-        name: 'ArchiveTick',
+        Component: ArchiveTickOutline,
+        name: 'ArchiveTickOutline',
     },
 ];
 

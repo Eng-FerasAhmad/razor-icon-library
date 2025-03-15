@@ -2,8 +2,8 @@ import { Meta, StoryObj } from '@storybook/react';
 
 import { DashboardSymbol } from './dashboard/DashboardSymbol';
 
-import { BoardOutline } from 'components/_grid/board-outline/BoardOutline';
-import { BoardBold } from 'components/_grid/board-bold/BoardBold';
+import { BoardOutline } from 'components/_grid/board/BoardOutline';
+import { BoardBold } from 'components/_grid/board/BoardBold';
 import StoryTemplate, { SymbolComponent } from 'components/StoryTemplate';
 
 const meta: Meta = {

@@ -1,11 +1,11 @@
 import { Meta, StoryObj } from '@storybook/react';
 
-import { CalendarSymbol } from './calendar/CalendarSymbol';
-import { CalendarCheckSymbol } from './calendar-check/CalendarCheck';
-import { CalendarEditSymbol } from './calendar-edit/CalendarEditSymbol';
-import { TimerSymbol } from './timer/TimerSymbol';
-import { ClockSymbol } from './clock/ClockSymbol';
-import { OutlineClockSymbol } from './clock-outline/OutlineClockSymbol';
+import { CalendarBold } from './calendar/CalendarBold';
+import { CalendarCheckTwotone } from './calendar-check/CalendarCheckTwotone';
+import { CalendarEditTwotone } from './calendar-edit/CalendarEditTwotone';
+import { TimerBulk } from './timer/TimerBulk';
+import { ClockOutline } from './clock/ClockOutline';
+import { ClockTwotone } from './clock/ClockTwotone';
 
 import StoryTemplate, { SymbolComponent } from 'components/StoryTemplate';
 
@@ -19,28 +19,28 @@ export default meta;
 // Define all symbols with their respective props
 const symbols: SymbolComponent[] = [
     {
-        Component: CalendarSymbol,
-        name: 'CalendarSymbol',
+        Component: CalendarBold,
+        name: 'CalendarBold',
     },
     {
-        Component: CalendarCheckSymbol,
-        name: 'CalendarCheckSymbol',
+        Component: CalendarCheckTwotone,
+        name: 'CalendarCheckTwotone',
     },
     {
-        Component: CalendarEditSymbol,
-        name: 'CalendarEditSymbol',
+        Component: CalendarEditTwotone,
+        name: 'CalendarEditTwotone',
     },
     {
-        Component: TimerSymbol,
-        name: 'TimerSymbol',
+        Component: TimerBulk,
+        name: 'TimerBulk',
     },
     {
-        Component: ClockSymbol,
-        name: 'ClockSymbol',
+        Component: ClockOutline,
+        name: 'ClockOutline',
     },
     {
-        Component: OutlineClockSymbol,
-        name: 'OutlineClockSymbol',
+        Component: ClockTwotone,
+        name: 'ClockTwotone',
     },
 ];
 

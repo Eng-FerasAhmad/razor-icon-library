@@ -6,9 +6,9 @@ import { DeleteOutline } from './delete/DeleteOutline';
 import { EditOutline } from './edit/EditOutline';
 import { SearchOutline } from './search/SearchOutline';
 
-import { GalleryTwotone } from 'components/_files/gallery-twotone/GalleryTwotone';
-import { GalleryBold } from 'components/_files/gallery-bold/GalleryBold';
-import { GalleryOutline } from 'components/_files/gallery-outline/GalleryOutline';
+import { GalleryOutline } from 'components/_files/gallery/GalleryOutline';
+import { GalleryTwotone } from 'components/_files/gallery/GalleryTwotone';
+import { GalleryBold } from 'components/_files/gallery/GalleryBold';
 import StoryTemplate, { SymbolComponent } from 'components/StoryTemplate';
 
 const meta: Meta = {

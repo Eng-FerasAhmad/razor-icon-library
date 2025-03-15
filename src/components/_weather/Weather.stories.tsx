@@ -1,6 +1,6 @@
 import { Meta, StoryObj } from '@storybook/react';
 
-import { SunSymbol } from './sun/SunSymbol';
+import { SunOutline } from './sun/SunOutline';
 
 import StoryTemplate, { SymbolComponent } from 'components/StoryTemplate';
 
@@ -14,7 +14,7 @@ export default meta;
 // Define all symbols with their respective props
 const symbols: SymbolComponent[] = [
     {
-        Component: SunSymbol,
+        Component: SunOutline,
         name: 'SunSymbol',
     },
 ];

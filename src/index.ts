@@ -1,114 +1,113 @@
 // archive
-export { ArchiveTick } from 'components/_archive/archive-tick/ArchiveTick';
+export { ArchiveTickOutline } from 'components/_archive/archive-tick/ArchiveTickOutline';
 
 // arrow
-export { ArrowNextSymbol } from 'components/_arrow/arrow-next/ArrowNextSymbol';
-export { ArrowPrevSymbol } from 'components/_arrow/arrow-prev/ArrowPrevSymbol';
-export { ArrowDownSymbol } from 'components/_arrow/arrow-down/ArrowDownSymbol';
-export { ArrowUpSymbol } from 'components/_arrow/arrow-up/ArrowUpSymbol';
+export { ArrowNextOutline } from 'components/_arrow/arrow-next/ArrowNextOutline';
+export { ArrowPrevOutline } from 'components/_arrow/arrow-prev/ArrowPrevOutline';
+export { ArrowDownOutline } from 'components/_arrow/arrow-down/ArrowDownOutline';
+export { ArrowUpOutline } from 'components/_arrow/arrow-up/ArrowUpOutline';
 
 // astrology
-export { VuesaxSymbol } from 'components/_astrology/vuesax/VuesaxSymbol';
+export { VuesaxOutline } from 'components/_astrology/vuesax/VuesaxOutline';
 
 // brands
-export { AppleSymbol } from 'components/_brands/apple/AppleSymbol';
+export { AppleOutline } from 'components/_brands/apple/AppleOutline';
 
 // building
-export { QuestionSymbol } from 'components/_building/question/QuestionSymbol';
+export { QuestionOutline } from 'components/_building/question/QuestionOutline';
 
 // business
-export { PaymentSymbol } from 'components/_business/payment/PaymentSymbol';
-export { RequestsSymbol } from './components/_business/requests/RequestsSymbol';
+export { VisaCardTwotone } from 'components/_business/visa-card/VisaCardTwotone';
+export { VisaCardOutline } from 'components/_business/visa-card/VisaCardOutline';
+export { RequestsBold } from 'components/_business/requests/RequestsBold';
 
 // calendar
-export { CalendarSymbol } from 'components/_calendar/calendar/CalendarSymbol';
-export { CalendarEditSymbol } from 'components/_calendar/calendar-edit/CalendarEditSymbol';
-export { CalendarCheckSymbol } from 'components/_calendar/calendar-check/CalendarCheck';
-export { ClockSymbol } from 'components/_calendar/clock/ClockSymbol';
-export { OutlineClockSymbol } from 'components/_calendar/clock-outline/OutlineClockSymbol';
-export { TimerSymbol } from 'components/_calendar/timer/TimerSymbol';
+export { CalendarBold } from 'components/_calendar/calendar/CalendarBold';
+export { CalendarEditTwotone } from 'components/_calendar/calendar-edit/CalendarEditTwotone';
+export { CalendarCheckTwotone } from 'components/_calendar/calendar-check/CalendarCheckTwotone';
+export { ClockOutline } from 'components/_calendar/clock/ClockOutline';
+export { ClockTwotone } from 'components/_calendar/clock/ClockTwotone';
+export { TimerBulk } from 'components/_calendar/timer/TimerBulk';
 
 // cars
-export { ShipSymbol } from 'components/_cars/ship/ShipSymbol';
+export { ShipTwotone } from 'components/_cars/ship/ShipTwotone';
 
 // delivery
-export { ToolbarSymbol } from 'components/_delivery/toolbar/ToolbarSymbol';
-export { WizardSymbol } from 'components/_delivery/wizard/WizardSymbol';
+export { ToolbarTwotone } from 'components/_delivery/toolbar/ToolbarTwotone';
+export { WizardTwotone } from 'components/_delivery/wizard/WizardTwotone';
 
 // design
-export { ThemeSymbol } from 'components/_design/theme/ThemeSymbol';
+export { ThemeTwotone } from 'components/_design/theme/ThemeTwotone';
 
 // device
-export { MicroscopeSymbol } from 'components/_device/microscope/MicroscopeSymbol';
+export { MicroscopeOutline } from 'components/_device/microscope/MicroscopeOutline';
 
 // essential
-export { MenuSymbol } from 'components/_essential/menu/MenuSymbol';
-export { AnalyticsSymbol } from 'components/_essential/analytics/AnalyticsSymbol';
+export { MenuOutline } from 'components/_essential/menu/MenuOutline';
+export { AnalyticsTwotone } from 'components/_essential/analytics/AnalyticsTwotone';
 
 // files
 export { AddCircleOutline } from 'components/_files/add-circle/AddCircleOutline';
 export { CloseOutline } from 'components/_files/close/CloseOutline';
 export { DeleteOutline } from 'components/_files/delete/DeleteOutline';
 export { EditOutline } from 'components/_files/edit/EditOutline';
-export { GalleryTwotone } from 'components/_files/gallery-twotone/GalleryTwotone';
-export { GalleryBold } from 'components/_files/gallery-bold/GalleryBold';
-export { GalleryOutline } from 'components/_files/gallery-outline/GalleryOutline';
+export { GalleryTwotone } from 'components/_files/gallery/GalleryTwotone';
+export { GalleryBold } from 'components/_files/gallery/GalleryBold';
+export { GalleryOutline } from 'components/_files/gallery/GalleryOutline';
 export { SearchOutline } from 'components/_files/search/SearchOutline';
 
 // grid
-export { BoardOutline } from 'components/_grid/board-outline/BoardOutline';
-export { BoardBold } from 'components/_grid/board-bold/BoardBold';
+export { BoardOutline } from 'components/_grid/board/BoardOutline';
+export { BoardBold } from 'components/_grid/board/BoardBold';
 export { DashboardSymbol } from 'components/_grid/dashboard/DashboardSymbol';
 
 // learning
-export { TeacherSymbol } from 'components/_learning/teacher/TeacherSymbol';
+export { TeacherOutline } from 'components/_learning/teacher/TeacherOutline';
 
 // like
-export { HandLikeSymbol } from 'components/_like/hand-like/HandLikeSymbol';
-export { AwardSymbol } from 'components/_like/award/AwardSymbol';
-export { StarSymbol } from 'components/_like/star/StarSymbol';
-export { CheckmarkSymbol } from 'components/_like/checkmark/CheckmarkSymbol';
+export { HandLikeTwotone } from 'components/_like/hand-like/HandLikeTwotone';
+export { AwardTwotone } from 'components/_like/award/AwardTwotone';
+export { StarBold } from 'components/_like/star/StarBold';
+export { CheckmarkBold } from 'components/_like/checkmark/CheckmarkBold';
 
 // location
-export { LocationSymbol } from 'components/_location/location/LocationSymbol';
+export { LocationOutline } from 'components/_location/location/LocationOutline';
 
 // mails
-export { MailSymbol } from 'components/_mails/mail/MailSymbol';
-export { CallSymbol } from 'components/_mails/call/CallSymbol';
-export { SmsSymbol } from 'components/_mails/sms/SmsSymbol';
-
-// money
-export { VisaCard } from 'components/_money/visa-card/VisaCard';
+export { MailTwotone } from 'components/_mails/mail/MailTwotone';
+export { CallOutline } from 'components/_mails/call/CallOutline';
+export { SmsTwotone } from 'components/_mails/sms/SmsTwotone';
 
 // notification
-export { NotificationSymbol } from 'components/_notification/notification/NotificationSymbol';
+export { NotificationOutline } from 'components/_notification/notification/NotificationOutline';
 
 // programing
-export { GitArrow } from 'components/_programing/git-arrow/GitArrow';
+export { GitArrowOutline } from 'components/_programing/git-arrow/GitArrowOutline';
 
 // security
-export { SecuritySafe } from 'components/_security/security-safe/SecuritySafe';
+export { SecuritySafeOutline } from 'components/_security/security-safe/SecuritySafeOutline';
 
 // settings
-export { SettingsBold } from 'components/_settings/settings-bold/SettingsBold';
-export { SettingsOutline } from 'components/_settings/settings-outline/SettingsOutline';
+export { SettingsBold } from 'components/_settings/settings/SettingsBold';
+export { SettingsOutline } from 'components/_settings/settings/SettingsOutline';
 
 // shop
-export { ShopSymbol } from 'components/_shop/shop/ShopSymbol';
+export { ShopTwotone } from 'components/_shop/shop/ShopTwotone';
 
 // users
-export { AccountSymbol } from 'components/_users/account/AccountSymbol';
-export { AddUserSymbol } from 'components/_users/add-user/AddUserSymbol';
-export { UsersSymbol } from 'components/_users/users/UsersSymbol';
-export { LoginSymbol } from 'components/_users/login/LoginSymbol';
-export { LogoutSymbol } from 'components/_users/logout/LogoutSymbol';
-export { SignupSymbol } from 'components/_users/signup/SignupSymbol';
-export { EditUserSymbol } from 'components/_users/edit-user/EditUser';
-export { UserSymbol } from 'components/_users/user/UserSymbol';
-export { BirthdaySymbol } from 'components/_users/birthday/Birthday';
+export { AccountOutline } from 'components/_users/account/AccountOutline';
+export { AddUserBold } from 'components/_users/add-user/AddUserBold';
+export { UsersTwotone } from 'components/_users/users/UsersTwotone';
+export { UsersBold } from 'components/_users/users/UsersBold';
+export { LoginTwotone } from 'components/_users/login/LoginTwotone';
+export { LogoutOutline } from 'components/_users/logout/LogoutOutline';
+export { SignupTwotone } from 'components/_users/signup/SignupTwotone';
+export { EditUserTwotone } from 'components/_users/edit-user/EditUserTwotone';
+export { UserTwotone } from 'components/_users/user/UserTwotone';
+export { BirthdaySymbol } from 'components/_users/birthday/BirthdayOutline';
 
 // weather
-export { SunSymbol } from 'components/_weather/sun/SunSymbol';
+export { SunOutline } from 'components/_weather/sun/SunOutline';
 
 // razor
-export { RazorSymbol } from 'components/razor-logo/RazorSymbol';
+export { RazorLogoTwotone } from 'components/razor-logo/RazorLogoTwotone';

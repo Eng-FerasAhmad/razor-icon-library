@@ -1,6 +1,6 @@
 import { Meta, StoryObj } from '@storybook/react';
 
-import { GitArrow } from './git-arrow/GitArrow';
+import { GitArrowOutline } from './git-arrow/GitArrowOutline';
 
 import StoryTemplate, { SymbolComponent } from 'components/StoryTemplate';
 
@@ -14,8 +14,8 @@ export default meta;
 // Define all symbols with their respective props
 const symbols: SymbolComponent[] = [
     {
-        Component: GitArrow,
-        name: 'GitArrow',
+        Component: GitArrowOutline,
+        name: 'GitArrowOutline',
     },
 ];
 

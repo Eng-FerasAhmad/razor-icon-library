@@ -105,12 +105,12 @@ The library still in development phase, so any new icon components and feature o
 ### Card
 
 ```tsx
-import { AccountSymbol } from 'razor-icon-library';
+import { AccountOutline } from 'razor-icon-library';
 
 export default function Example() {
     return (
         <div>
-            <AccountSymbol size={36} color={green} />
+            <AccountOutline size={36} color={green} />
         </div>
     );
 }

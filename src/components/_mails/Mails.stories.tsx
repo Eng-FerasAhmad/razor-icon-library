@@ -1,8 +1,8 @@
 import { Meta, StoryObj } from '@storybook/react';
 
-import { CallSymbol } from './call/CallSymbol';
-import { MailSymbol } from './mail/MailSymbol';
-import { SmsSymbol } from './sms/SmsSymbol';
+import { CallOutline } from './call/CallOutline';
+import { MailTwotone } from './mail/MailTwotone';
+import { SmsTwotone } from './sms/SmsTwotone';
 
 import StoryTemplate, { SymbolComponent } from 'components/StoryTemplate';
 
@@ -16,16 +16,16 @@ export default meta;
 // Define all symbols with their respective props
 const symbols: SymbolComponent[] = [
     {
-        Component: CallSymbol,
-        name: 'CallSymbol',
+        Component: CallOutline,
+        name: 'CallOutline',
     },
     {
-        Component: MailSymbol,
-        name: 'MailSymbol',
+        Component: MailTwotone,
+        name: 'MailTwotone',
     },
     {
-        Component: SmsSymbol,
-        name: 'SmsSymbol',
+        Component: SmsTwotone,
+        name: 'SmsTwotone',
     },
 ];
 

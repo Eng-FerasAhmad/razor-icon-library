@@ -1,7 +1,7 @@
 import { Meta, StoryObj } from '@storybook/react';
 
-import { MenuSymbol } from './menu/MenuSymbol';
-import { AnalyticsSymbol } from './analytics/AnalyticsSymbol';
+import { MenuOutline } from './menu/MenuOutline';
+import { AnalyticsTwotone } from './analytics/AnalyticsTwotone';
 
 import StoryTemplate, { SymbolComponent } from 'components/StoryTemplate';
 
@@ -15,12 +15,12 @@ export default meta;
 // Define all symbols with their respective props
 const symbols: SymbolComponent[] = [
     {
-        Component: MenuSymbol,
-        name: 'MenuSymbol',
+        Component: MenuOutline,
+        name: 'MenuOutline',
     },
     {
-        Component: AnalyticsSymbol,
-        name: 'AnalyticsSymbol',
+        Component: AnalyticsTwotone,
+        name: 'AnalyticsTwotone',
     },
 ];
 

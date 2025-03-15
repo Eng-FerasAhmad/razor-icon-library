@@ -1,6 +1,6 @@
 import { Meta, StoryObj } from '@storybook/react';
 
-import { ThemeSymbol } from './theme/ThemeSymbol';
+import { ThemeTwotone } from './theme/ThemeTwotone';
 
 import StoryTemplate, { SymbolComponent } from 'components/StoryTemplate';
 
@@ -14,8 +14,8 @@ export default meta;
 // Define all symbols with their respective props
 const symbols: SymbolComponent[] = [
     {
-        Component: ThemeSymbol,
-        name: 'ThemeSymbol',
+        Component: ThemeTwotone,
+        name: 'ThemeTwotone',
     },
 ];
 

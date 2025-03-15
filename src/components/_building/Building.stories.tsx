@@ -1,6 +1,6 @@
 import { Meta, StoryObj } from '@storybook/react';
 
-import { QuestionSymbol } from './question/QuestionSymbol';
+import { QuestionOutline } from './question/QuestionOutline';
 
 import StoryTemplate, { SymbolComponent } from 'components/StoryTemplate';
 
@@ -14,8 +14,8 @@ export default meta;
 // Define all symbols with their respective props
 const symbols: SymbolComponent[] = [
     {
-        Component: QuestionSymbol,
-        name: 'QuestionSymbol',
+        Component: QuestionOutline,
+        name: 'QuestionOutline',
     },
 ];
 

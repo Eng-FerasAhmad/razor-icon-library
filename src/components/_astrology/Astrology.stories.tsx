@@ -1,6 +1,6 @@
 import { Meta, StoryObj } from '@storybook/react';
 
-import { VuesaxSymbol } from './vuesax/VuesaxSymbol';
+import { VuesaxOutline } from './vuesax/VuesaxOutline';
 
 import StoryTemplate, { SymbolComponent } from 'components/StoryTemplate';
 
@@ -14,8 +14,8 @@ export default meta;
 // Define all symbols with their respective props
 const symbols: SymbolComponent[] = [
     {
-        Component: VuesaxSymbol,
-        name: 'VuesaxSymbol',
+        Component: VuesaxOutline,
+        name: 'VuesaxOutline',
     },
 ];
 

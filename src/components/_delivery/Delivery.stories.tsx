@@ -1,7 +1,7 @@
 import { Meta, StoryObj } from '@storybook/react';
 
-import { WizardSymbol } from './wizard/WizardSymbol';
-import { ToolbarSymbol } from './toolbar/ToolbarSymbol';
+import { WizardTwotone } from './wizard/WizardTwotone';
+import { ToolbarTwotone } from './toolbar/ToolbarTwotone';
 
 import StoryTemplate, { SymbolComponent } from 'components/StoryTemplate';
 
@@ -15,12 +15,12 @@ export default meta;
 // Define all symbols with their respective props
 const symbols: SymbolComponent[] = [
     {
-        Component: WizardSymbol,
-        name: 'WizardSymbol',
+        Component: WizardTwotone,
+        name: 'WizardTwotone',
     },
     {
-        Component: ToolbarSymbol,
-        name: 'ToolbarSymbol',
+        Component: ToolbarTwotone,
+        name: 'ToolbarTwotone',
     },
 ];
 

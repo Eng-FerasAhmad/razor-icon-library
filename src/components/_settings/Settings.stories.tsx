@@ -1,7 +1,7 @@
 import { Meta, StoryObj } from '@storybook/react';
 
-import { SettingsBold } from 'components/_settings/settings-bold/SettingsBold';
-import { SettingsOutline } from 'components/_settings/settings-outline/SettingsOutline';
+import { SettingsOutline } from 'components/_settings/settings/SettingsOutline';
+import { SettingsBold } from 'components/_settings/settings/SettingsBold';
 import StoryTemplate, { SymbolComponent } from 'components/StoryTemplate';
 
 const meta: Meta = {

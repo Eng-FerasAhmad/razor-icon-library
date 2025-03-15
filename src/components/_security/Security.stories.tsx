@@ -1,6 +1,6 @@
 import { Meta, StoryObj } from '@storybook/react';
 
-import { SecuritySafe } from './security-safe/SecuritySafe';
+import { SecuritySafeOutline } from './security-safe/SecuritySafeOutline';
 
 import StoryTemplate, { SymbolComponent } from 'components/StoryTemplate';
 
@@ -14,8 +14,8 @@ export default meta;
 // Define all symbols with their respective props
 const symbols: SymbolComponent[] = [
     {
-        Component: SecuritySafe,
-        name: 'SecuritySafe',
+        Component: SecuritySafeOutline,
+        name: 'SecuritySafeOutline',
     },
 ];
 

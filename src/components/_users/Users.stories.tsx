@@ -1,13 +1,14 @@
 import { Meta, StoryObj } from '@storybook/react';
 
-import { AccountSymbol } from './account/AccountSymbol';
-import { AddUserSymbol } from './add-user/AddUserSymbol';
-import { EditUserSymbol } from './edit-user/EditUser';
-import { SignupSymbol } from './signup/SignupSymbol';
-import { UserSymbol } from './user/UserSymbol';
-import { UsersSymbol } from './users/UsersSymbol';
-import { LoginSymbol } from './login/LoginSymbol';
-import { LogoutSymbol } from './logout/LogoutSymbol';
+import { AccountOutline } from './account/AccountOutline';
+import { AddUserBold } from './add-user/AddUserBold';
+import { EditUserTwotone } from './edit-user/EditUserTwotone';
+import { SignupTwotone } from './signup/SignupTwotone';
+import { UserTwotone } from './user/UserTwotone';
+import { UsersTwotone } from './users/UsersTwotone';
+import { UsersBold } from './users/UsersBold';
+import { LoginTwotone } from './login/LoginTwotone';
+import { LogoutOutline } from './logout/LogoutOutline';
 
 import StoryTemplate, { SymbolComponent } from 'components/StoryTemplate';
 
@@ -21,36 +22,40 @@ export default meta;
 // Define all symbols with their respective props
 const symbols: SymbolComponent[] = [
     {
-        Component: AccountSymbol,
-        name: 'AccountSymbol',
+        Component: AccountOutline,
+        name: 'AccountOutline',
     },
     {
-        Component: AddUserSymbol,
-        name: 'AddUserSymbol',
+        Component: AddUserBold,
+        name: 'AddUserBold',
     },
     {
-        Component: EditUserSymbol,
-        name: 'EditUserSymbol',
+        Component: EditUserTwotone,
+        name: 'EditUserTwotone',
     },
     {
-        Component: SignupSymbol,
-        name: 'SignupSymbol',
+        Component: SignupTwotone,
+        name: 'SignupTwotone',
     },
     {
-        Component: UserSymbol,
-        name: 'UserSymbol',
+        Component: UserTwotone,
+        name: 'UserTwotone',
     },
     {
-        Component: UsersSymbol,
-        name: 'UsersSymbol',
+        Component: UsersTwotone,
+        name: 'UsersTwotone',
     },
     {
-        Component: LoginSymbol,
-        name: 'LoginSymbol',
+        Component: UsersBold,
+        name: 'UsersBold',
     },
     {
-        Component: LogoutSymbol,
-        name: 'LogoutSymbol',
+        Component: LoginTwotone,
+        name: 'LoginTwotone',
+    },
+    {
+        Component: LogoutOutline,
+        name: 'LogoutOutline',
     },
 ];
 

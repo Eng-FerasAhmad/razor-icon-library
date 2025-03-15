@@ -1,6 +1,6 @@
 import { Meta, StoryObj } from '@storybook/react';
 
-import { LocationSymbol } from './location/LocationSymbol';
+import { LocationOutline } from './location/LocationOutline';
 
 import StoryTemplate, { SymbolComponent } from 'components/StoryTemplate';
 
@@ -14,8 +14,8 @@ export default meta;
 // Define all symbols with their respective props
 const symbols: SymbolComponent[] = [
     {
-        Component: LocationSymbol,
-        name: 'LocationSymbol',
+        Component: LocationOutline,
+        name: 'LocationOutline',
     },
 ];
 

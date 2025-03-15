@@ -1,9 +1,9 @@
 import { Meta, StoryObj } from '@storybook/react';
 
-import { ArrowDownSymbol } from './arrow-down/ArrowDownSymbol';
-import { ArrowPrevSymbol } from './arrow-prev/ArrowPrevSymbol';
-import { ArrowNextSymbol } from './arrow-next/ArrowNextSymbol';
-import { ArrowUpSymbol } from './arrow-up/ArrowUpSymbol';
+import { ArrowDownOutline } from './arrow-down/ArrowDownOutline';
+import { ArrowPrevOutline } from './arrow-prev/ArrowPrevOutline';
+import { ArrowNextOutline } from './arrow-next/ArrowNextOutline';
+import { ArrowUpOutline } from './arrow-up/ArrowUpOutline';
 
 import StoryTemplate, { SymbolComponent } from 'components/StoryTemplate';
 
@@ -17,20 +17,20 @@ export default meta;
 // Define all symbols with their respective props
 const symbols: SymbolComponent[] = [
     {
-        Component: ArrowDownSymbol,
-        name: 'ArrowDownSymbol',
+        Component: ArrowDownOutline,
+        name: 'ArrowDownOutline',
     },
     {
-        Component: ArrowPrevSymbol,
-        name: 'ArrowPrevSymbol',
+        Component: ArrowPrevOutline,
+        name: 'ArrowPrevOutline',
     },
     {
-        Component: ArrowNextSymbol,
-        name: 'ArrowNextSymbol',
+        Component: ArrowNextOutline,
+        name: 'ArrowNextOutline',
     },
     {
-        Component: ArrowUpSymbol,
-        name: 'ArrowUpSymbol',
+        Component: ArrowUpOutline,
+        name: 'ArrowUpOutline',
     },
 ];
 

@@ -1,6 +1,6 @@
 import { Meta, StoryObj } from '@storybook/react';
 
-import { AppleSymbol } from './apple/AppleSymbol';
+import { AppleOutline } from './apple/AppleOutline';
 
 import StoryTemplate, { SymbolComponent } from 'components/StoryTemplate';
 
@@ -14,8 +14,8 @@ export default meta;
 // Define all symbols with their respective props
 const symbols: SymbolComponent[] = [
     {
-        Component: AppleSymbol,
-        name: 'AppleSymbol',
+        Component: AppleOutline,
+        name: 'AppleOutline',
     },
 ];
 

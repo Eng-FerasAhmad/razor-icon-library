@@ -2,7 +2,7 @@ import { Meta, StoryObj } from '@storybook/react';
 
 import StoryTemplate, { SymbolComponent } from 'components/StoryTemplate';
 
-import { RazorSymbol } from './RazorSymbol';
+import { RazorLogoTwotone } from './RazorLogoTwotone';
 
 const meta: Meta = {
     title: 'Razor',
@@ -14,8 +14,8 @@ export default meta;
 // Define all symbols with their respective props
 const symbols: SymbolComponent[] = [
     {
-        Component: RazorSymbol,
-        name: 'RazorSymbol',
+        Component: RazorLogoTwotone,
+        name: 'RazorLogoTwotone',
     },
 ];
 

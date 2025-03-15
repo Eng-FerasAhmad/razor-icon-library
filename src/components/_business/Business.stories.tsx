@@ -1,7 +1,8 @@
 import { Meta, StoryObj } from '@storybook/react';
 
-import { PaymentSymbol } from './payment/PaymentSymbol';
-import { RequestsSymbol } from './requests/RequestsSymbol';
+import { VisaCardOutline } from './visa-card/VisaCardOutline';
+import { VisaCardTwotone } from './visa-card/VisaCardTwotone';
+import { RequestsBold } from './requests/RequestsBold';
 
 import StoryTemplate, { SymbolComponent } from 'components/StoryTemplate';
 
@@ -15,12 +16,16 @@ export default meta;
 // Define all symbols with their respective props
 const symbols: SymbolComponent[] = [
     {
-        Component: PaymentSymbol,
-        name: 'PaymentSymbol',
+        Component: VisaCardTwotone,
+        name: 'VisaCardTwotone',
     },
     {
-        Component: RequestsSymbol,
-        name: 'RequestsSymbol',
+        Component: VisaCardOutline,
+        name: 'VisaCardOutline',
+    },
+    {
+        Component: RequestsBold,
+        name: 'RequestsBold',
     },
 ];
 

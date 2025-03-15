@@ -1,9 +1,9 @@
 import { Meta, StoryObj } from '@storybook/react';
 
-import { AwardSymbol } from './award/AwardSymbol';
-import { CheckmarkSymbol } from './checkmark/CheckmarkSymbol';
-import { HandLikeSymbol } from './hand-like/HandLikeSymbol';
-import { StarSymbol } from './star/StarSymbol';
+import { AwardTwotone } from './award/AwardTwotone';
+import { CheckmarkBold } from './checkmark/CheckmarkBold';
+import { HandLikeTwotone } from './hand-like/HandLikeTwotone';
+import { StarBold } from './star/StarBold';
 
 import StoryTemplate, { SymbolComponent } from 'components/StoryTemplate';
 
@@ -17,20 +17,20 @@ export default meta;
 // Define all symbols with their respective props
 const symbols: SymbolComponent[] = [
     {
-        Component: AwardSymbol,
-        name: 'AwardSymbol',
+        Component: AwardTwotone,
+        name: 'AwardTwotone',
     },
     {
-        Component: CheckmarkSymbol,
-        name: 'CheckmarkSymbol',
+        Component: CheckmarkBold,
+        name: 'CheckmarkBold',
     },
     {
-        Component: HandLikeSymbol,
-        name: 'HandLikeSymbol',
+        Component: HandLikeTwotone,
+        name: 'HandLikeTwotone',
     },
     {
-        Component: StarSymbol,
-        name: 'StarSymbol',
+        Component: StarBold,
+        name: 'StarBold',
     },
 ];
 

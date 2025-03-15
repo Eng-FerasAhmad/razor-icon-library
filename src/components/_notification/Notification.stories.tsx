@@ -1,6 +1,6 @@
 import { Meta, StoryObj } from '@storybook/react';
 
-import { NotificationSymbol } from './notification/NotificationSymbol';
+import { NotificationOutline } from './notification/NotificationOutline';
 
 import StoryTemplate, { SymbolComponent } from 'components/StoryTemplate';
 
@@ -14,8 +14,8 @@ export default meta;
 // Define all symbols with their respective props
 const symbols: SymbolComponent[] = [
     {
-        Component: NotificationSymbol,
-        name: 'NotificationSymbol',
+        Component: NotificationOutline,
+        name: 'NotificationOutline',
     },
 ];
 

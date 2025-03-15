@@ -1,6 +1,6 @@
 import { Meta, StoryObj } from '@storybook/react';
 
-import { MicroscopeSymbol } from './microscope/MicroscopeSymbol';
+import { MicroscopeOutline } from './microscope/MicroscopeOutline';
 
 import StoryTemplate, { SymbolComponent } from 'components/StoryTemplate';
 
@@ -14,8 +14,8 @@ export default meta;
 // Define all symbols with their respective props
 const symbols: SymbolComponent[] = [
     {
-        Component: MicroscopeSymbol,
-        name: 'MicroscopeSymbol',
+        Component: MicroscopeOutline,
+        name: 'MicroscopeOutline',
     },
 ];
 
