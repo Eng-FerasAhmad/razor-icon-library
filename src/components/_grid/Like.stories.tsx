@@ -1,6 +1,6 @@
 import { Meta, StoryObj } from '@storybook/react';
 
-import { DashboardSymbol } from './dashboard/DashboardSymbol';
+import { DashboardTwotone } from './dashboard/DashboardTwotone';
 
 import { BoardOutline } from 'components/_grid/board/BoardOutline';
 import { BoardBold } from 'components/_grid/board/BoardBold';
@@ -24,8 +24,8 @@ const symbols: SymbolComponent[] = [
         name: 'BoardBold',
     },
     {
-        Component: DashboardSymbol,
-        name: 'DashboardSymbol',
+        Component: DashboardTwotone,
+        name: 'DashboardTwotone',
     },
 ];
 

@@ -9,6 +9,7 @@ import { UsersTwotone } from './users/UsersTwotone';
 import { UsersBold } from './users/UsersBold';
 import { LoginTwotone } from './login/LoginTwotone';
 import { LogoutOutline } from './logout/LogoutOutline';
+import { BirthdayOutline } from './birthday/BirthdayOutline';
 
 import StoryTemplate, { SymbolComponent } from 'components/StoryTemplate';
 
@@ -56,6 +57,10 @@ const symbols: SymbolComponent[] = [
     {
         Component: LogoutOutline,
         name: 'LogoutOutline',
+    },
+    {
+        Component: BirthdayOutline,
+        name: 'BirthdayOutline',
     },
 ];
 

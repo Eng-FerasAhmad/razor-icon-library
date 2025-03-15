@@ -59,7 +59,7 @@ export { SearchOutline } from 'components/_files/search/SearchOutline';
 // grid
 export { BoardOutline } from 'components/_grid/board/BoardOutline';
 export { BoardBold } from 'components/_grid/board/BoardBold';
-export { DashboardSymbol } from 'components/_grid/dashboard/DashboardSymbol';
+export { DashboardTwotone } from 'components/_grid/dashboard/DashboardTwotone';
 
 // learning
 export { TeacherOutline } from 'components/_learning/teacher/TeacherOutline';
@@ -104,7 +104,7 @@ export { LogoutOutline } from 'components/_users/logout/LogoutOutline';
 export { SignupTwotone } from 'components/_users/signup/SignupTwotone';
 export { EditUserTwotone } from 'components/_users/edit-user/EditUserTwotone';
 export { UserTwotone } from 'components/_users/user/UserTwotone';
-export { BirthdaySymbol } from 'components/_users/birthday/BirthdayOutline';
+export { BirthdayOutline } from 'components/_users/birthday/BirthdayOutline';
 
 // weather
 export { SunOutline } from 'components/_weather/sun/SunOutline';
