@@ -60,6 +60,7 @@ export { SearchOutline } from 'components/_files/search/SearchOutline';
 export { BoardOutline } from 'components/_grid/board/BoardOutline';
 export { BoardBold } from 'components/_grid/board/BoardBold';
 export { DashboardTwotone } from 'components/_grid/dashboard/DashboardTwotone';
+export { TableTwotone } from 'components/_grid/table/TableTwotone';
 
 // learning
 export { TeacherOutline } from 'components/_learning/teacher/TeacherOutline';

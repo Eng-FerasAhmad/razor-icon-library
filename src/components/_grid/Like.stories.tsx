@@ -5,6 +5,7 @@ import { DashboardTwotone } from './dashboard/DashboardTwotone';
 import { BoardOutline } from 'components/_grid/board/BoardOutline';
 import { BoardBold } from 'components/_grid/board/BoardBold';
 import StoryTemplate, { SymbolComponent } from 'components/StoryTemplate';
+import { TableTwotone } from 'components/_grid/table/TableTwotone';
 
 const meta: Meta = {
     title: 'Grid',
@@ -26,6 +27,10 @@ const symbols: SymbolComponent[] = [
     {
         Component: DashboardTwotone,
         name: 'DashboardTwotone',
+    },
+    {
+        Component: TableTwotone,
+        name: 'TableTwotone',
     },
 ];
 
