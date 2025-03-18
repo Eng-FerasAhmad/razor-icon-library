@@ -6,6 +6,7 @@ export { ArrowNextOutline } from 'components/_arrow/arrow-next/ArrowNextOutline'
 export { ArrowPrevOutline } from 'components/_arrow/arrow-prev/ArrowPrevOutline';
 export { ArrowDownOutline } from 'components/_arrow/arrow-down/ArrowDownOutline';
 export { ArrowUpOutline } from 'components/_arrow/arrow-up/ArrowUpOutline';
+export { ArrowBackOutline } from 'components/_arrow/arrow-back/ArrowBackOutline';
 
 // astrology
 export { VuesaxOutline } from 'components/_astrology/vuesax/VuesaxOutline';

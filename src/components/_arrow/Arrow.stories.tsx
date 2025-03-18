@@ -4,6 +4,7 @@ import { ArrowDownOutline } from './arrow-down/ArrowDownOutline';
 import { ArrowPrevOutline } from './arrow-prev/ArrowPrevOutline';
 import { ArrowNextOutline } from './arrow-next/ArrowNextOutline';
 import { ArrowUpOutline } from './arrow-up/ArrowUpOutline';
+import { ArrowBackOutline } from './arrow-back/ArrowBackOutline';
 
 import StoryTemplate, { SymbolComponent } from 'components/StoryTemplate';
 
@@ -31,6 +32,10 @@ const symbols: SymbolComponent[] = [
     {
         Component: ArrowUpOutline,
         name: 'ArrowUpOutline',
+    },
+    {
+        Component: ArrowBackOutline,
+        name: 'ArrowBackOutline',
     },
 ];
 
