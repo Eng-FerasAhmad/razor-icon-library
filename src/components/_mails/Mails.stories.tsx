@@ -2,6 +2,7 @@ import { Meta, StoryObj } from '@storybook/react';
 
 import { CallOutline } from './call/CallOutline';
 import { MailTwotone } from './mail/MailTwotone';
+import { MailSendingTwotone } from './mail/MailSendingTwotone';
 import { SmsTwotone } from './sms/SmsTwotone';
 
 import StoryTemplate, { SymbolComponent } from 'components/StoryTemplate';
@@ -26,6 +27,10 @@ const symbols: SymbolComponent[] = [
     {
         Component: SmsTwotone,
         name: 'SmsTwotone',
+    },
+    {
+        Component: MailSendingTwotone,
+        name: 'MailSendingTwotone',
     },
 ];
 

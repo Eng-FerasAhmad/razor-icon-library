@@ -13,6 +13,9 @@ export { VuesaxOutline } from 'components/_astrology/vuesax/VuesaxOutline';
 
 // brands
 export { AppleOutline } from 'components/_brands/apple/AppleOutline';
+export { FacebookBold } from 'components/_brands/facebook/FacebookBold';
+export { YoutubeBold } from 'components/_brands/youtube/YoutubeBold';
+export { WhatsappBold } from 'components/_brands/whatsapp/WhatsappBold';
 
 // building
 export { QuestionOutline } from 'components/_building/question/QuestionOutline';
@@ -79,6 +82,7 @@ export { LocationOutline } from 'components/_location/location/LocationOutline';
 export { MailTwotone } from 'components/_mails/mail/MailTwotone';
 export { CallOutline } from 'components/_mails/call/CallOutline';
 export { SmsTwotone } from 'components/_mails/sms/SmsTwotone';
+export { MailSendingTwotone } from 'components/_mails/mail/MailSendingTwotone';
 
 // notification
 export { NotificationOutline } from 'components/_notification/notification/NotificationOutline';
