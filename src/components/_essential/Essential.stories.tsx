@@ -2,6 +2,7 @@ import { Meta, StoryObj } from '@storybook/react';
 
 import { MenuOutline } from './menu/MenuOutline';
 import { AnalyticsTwotone } from './analytics/AnalyticsTwotone';
+import { BurgerOutline } from './burger/Burger';
 
 import StoryTemplate, { SymbolComponent } from 'components/StoryTemplate';
 
@@ -21,6 +22,10 @@ const symbols: SymbolComponent[] = [
     {
         Component: AnalyticsTwotone,
         name: 'AnalyticsTwotone',
+    },
+    {
+        Component: BurgerOutline,
+        name: 'BurgerOutline',
     },
 ];
 

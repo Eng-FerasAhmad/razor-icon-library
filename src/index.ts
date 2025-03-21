@@ -49,6 +49,7 @@ export { MicroscopeOutline } from 'components/_device/microscope/MicroscopeOutli
 // essential
 export { MenuOutline } from 'components/_essential/menu/MenuOutline';
 export { AnalyticsTwotone } from 'components/_essential/analytics/AnalyticsTwotone';
+export { BurgerOutline } from 'components/_essential/burger/Burger';
 
 // files
 export { AddCircleOutline } from 'components/_files/add-circle/AddCircleOutline';
