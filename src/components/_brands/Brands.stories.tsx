@@ -7,6 +7,7 @@ import { FacebookBold } from './FacebookBold';
 import { YoutubeBold } from './YoutubeBold';
 import { WhatsappBold } from './WhatsappBold';
 import { SwaggerBold } from './SwaggerBold';
+import { AzureDevopsBold } from './AzureDevopsBold';
 
 const meta: Meta = {
     title: 'Brands',
@@ -36,6 +37,10 @@ const symbols: SymbolComponent[] = [
     {
         Component: SwaggerBold,
         name: 'SwaggerBold',
+    },
+    {
+        Component: AzureDevopsBold,
+        name: 'AzureDevopsBold',
     },
 ];
 

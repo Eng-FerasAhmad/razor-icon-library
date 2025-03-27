@@ -12,10 +12,12 @@ export { ArrowBackOutline } from 'components/_arrow/arrow-back/ArrowBackOutline'
 export { VuesaxOutline } from 'components/_astrology/vuesax/VuesaxOutline';
 
 // brands
-export { AppleOutline } from 'components/_brands/apple/AppleOutline';
-export { FacebookBold } from 'components/_brands/facebook/FacebookBold';
-export { YoutubeBold } from 'components/_brands/youtube/YoutubeBold';
-export { WhatsappBold } from 'components/_brands/whatsapp/WhatsappBold';
+export { AppleOutline } from 'components/_brands/AppleOutline';
+export { FacebookBold } from 'components/_brands/FacebookBold';
+export { YoutubeBold } from 'components/_brands/YoutubeBold';
+export { WhatsappBold } from 'components/_brands/WhatsappBold';
+export { SwaggerBold } from 'components/_brands/SwaggerBold';
+export { AzureDevopsBold } from 'components/_brands/AzureDevopsBold';
 
 // building
 export { QuestionOutline } from 'components/_building/question/QuestionOutline';
@@ -60,6 +62,7 @@ export { GalleryTwotone } from 'components/_files/gallery/GalleryTwotone';
 export { GalleryBold } from 'components/_files/gallery/GalleryBold';
 export { GalleryOutline } from 'components/_files/gallery/GalleryOutline';
 export { SearchOutline } from 'components/_files/search/SearchOutline';
+export { CheckListOutline } from 'components/_files/CheckListOutline';
 
 // grid
 export { BoardOutline } from 'components/_grid/board/BoardOutline';

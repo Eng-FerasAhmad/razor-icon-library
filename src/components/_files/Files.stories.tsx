@@ -11,6 +11,8 @@ import { GalleryTwotone } from 'components/_files/gallery/GalleryTwotone';
 import { GalleryBold } from 'components/_files/gallery/GalleryBold';
 import StoryTemplate, { SymbolComponent } from 'components/StoryTemplate';
 
+import { CheckListOutline } from './CheckListOutline';
+
 const meta: Meta = {
     title: 'File',
     tags: ['autodocs'],
@@ -51,6 +53,10 @@ const symbols: SymbolComponent[] = [
     {
         Component: SearchOutline,
         name: 'SearchOutline',
+    },
+    {
+        Component: CheckListOutline,
+        name: 'CheckListOutline',
     },
 ];
 
