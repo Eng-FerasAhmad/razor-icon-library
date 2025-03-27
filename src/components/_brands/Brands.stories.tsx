@@ -1,11 +1,12 @@
 import { Meta, StoryObj } from '@storybook/react';
 
-import { AppleOutline } from './apple/AppleOutline';
-import { FacebookBold } from './facebook/FacebookBold';
-import { YoutubeBold } from './youtube/YoutubeBold';
-import { WhatsappBold } from './whatsapp/WhatsappBold';
-
 import StoryTemplate, { SymbolComponent } from 'components/StoryTemplate';
+
+import { AppleOutline } from './AppleOutline';
+import { FacebookBold } from './FacebookBold';
+import { YoutubeBold } from './YoutubeBold';
+import { WhatsappBold } from './WhatsappBold';
+import { SwaggerBold } from './SwaggerBold';
 
 const meta: Meta = {
     title: 'Brands',
@@ -31,6 +32,10 @@ const symbols: SymbolComponent[] = [
     {
         Component: WhatsappBold,
         name: 'WhatsappBold',
+    },
+    {
+        Component: SwaggerBold,
+        name: 'SwaggerBold',
     },
 ];
 
