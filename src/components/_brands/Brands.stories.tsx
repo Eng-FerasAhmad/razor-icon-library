@@ -8,6 +8,10 @@ import { YoutubeBold } from './YoutubeBold';
 import { WhatsappBold } from './WhatsappBold';
 import { SwaggerBold } from './SwaggerBold';
 import { AzureDevopsBold } from './AzureDevopsBold';
+import { DrawioBold } from './DrawioBold';
+import { FigmaBold } from './FigmaBold';
+import { GitHubBold } from './GitHubBold';
+import { ConfluenceBold } from './ConfluenceBold';
 
 const meta: Meta = {
     title: 'Brands',
@@ -41,6 +45,22 @@ const symbols: SymbolComponent[] = [
     {
         Component: AzureDevopsBold,
         name: 'AzureDevopsBold',
+    },
+    {
+        Component: DrawioBold,
+        name: 'DrawioBold',
+    },
+    {
+        Component: FigmaBold,
+        name: 'FigmaBold',
+    },
+    {
+        Component: GitHubBold,
+        name: 'GitHubBold',
+    },
+    {
+        Component: ConfluenceBold,
+        name: 'ConfluenceBold',
     },
 ];
 

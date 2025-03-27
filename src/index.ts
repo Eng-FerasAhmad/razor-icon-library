@@ -18,6 +18,10 @@ export { YoutubeBold } from 'components/_brands/YoutubeBold';
 export { WhatsappBold } from 'components/_brands/WhatsappBold';
 export { SwaggerBold } from 'components/_brands/SwaggerBold';
 export { AzureDevopsBold } from 'components/_brands/AzureDevopsBold';
+export { DrawioBold } from 'components/_brands/DrawioBold';
+export { FigmaBold } from 'components/_brands/FigmaBold';
+export { GitHubBold } from 'components/_brands/GitHubBold';
+export { ConfluenceBold } from 'components/_brands/ConfluenceBold';
 
 // building
 export { QuestionOutline } from 'components/_building/question/QuestionOutline';
