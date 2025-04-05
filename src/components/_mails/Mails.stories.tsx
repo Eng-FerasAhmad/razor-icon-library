@@ -1,12 +1,12 @@
 import { Meta, StoryObj } from '@storybook/react';
 
-import { CallOutline } from './call/CallOutline';
-import { MailTwotone } from './mail/MailTwotone';
-import { MailSendingTwotone } from './mail/MailSendingTwotone';
-import { SmsTwotone } from './sms/SmsTwotone';
-
 import StoryTemplate, { SymbolComponent } from 'components/StoryTemplate';
+import { SmsTwotone } from 'components/_mails/SmsTwotone';
 
+import { CallOutline } from './CallOutline';
+import { MailTwotone } from './MailTwotone';
+import { MailSendingTwotone } from './MailSendingTwotone';
+import { SendOutline } from './SendOutline';
 const meta: Meta = {
     title: 'Mails',
     tags: ['autodocs'],
@@ -31,6 +31,10 @@ const symbols: SymbolComponent[] = [
     {
         Component: MailSendingTwotone,
         name: 'MailSendingTwotone',
+    },
+    {
+        Component: SendOutline,
+        name: 'SendOutline',
     },
 ];
 

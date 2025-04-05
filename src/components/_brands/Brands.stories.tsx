@@ -12,6 +12,7 @@ import { DrawioBold } from './DrawioBold';
 import { FigmaBold } from './FigmaBold';
 import { GitHubBold } from './GitHubBold';
 import { ConfluenceBold } from './ConfluenceBold';
+import { InstagramOutline } from './InstegramOutline';
 
 const meta: Meta = {
     title: 'Brands',
@@ -61,6 +62,10 @@ const symbols: SymbolComponent[] = [
     {
         Component: ConfluenceBold,
         name: 'ConfluenceBold',
+    },
+    {
+        Component: InstagramOutline,
+        name: 'InstagramOutline',
     },
 ];
 

@@ -1,8 +1,9 @@
 import { Meta, StoryObj } from '@storybook/react';
 
-import { SecuritySafeOutline } from './security-safe/SecuritySafeOutline';
-
 import StoryTemplate, { SymbolComponent } from 'components/StoryTemplate';
+
+import { VerifyOutline } from './VerifyOutline';
+import { SecuritySafeOutline } from './SecuritySafeOutline';
 
 const meta: Meta = {
     title: 'Security',
@@ -16,6 +17,10 @@ const symbols: SymbolComponent[] = [
     {
         Component: SecuritySafeOutline,
         name: 'SecuritySafeOutline',
+    },
+    {
+        Component: VerifyOutline,
+        name: 'VerifyOutline',
     },
 ];
 

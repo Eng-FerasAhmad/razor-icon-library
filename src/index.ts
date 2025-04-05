@@ -22,6 +22,7 @@ export { DrawioBold } from 'components/_brands/DrawioBold';
 export { FigmaBold } from 'components/_brands/FigmaBold';
 export { GitHubBold } from 'components/_brands/GitHubBold';
 export { ConfluenceBold } from 'components/_brands/ConfluenceBold';
+export { InstagramOutline } from 'components/_brands/InstegramOutline';
 
 // building
 export { QuestionOutline } from 'components/_building/question/QuestionOutline';
@@ -69,10 +70,17 @@ export { SearchOutline } from 'components/_files/search/SearchOutline';
 export { CheckListOutline } from 'components/_files/CheckListOutline';
 
 // grid
-export { BoardOutline } from 'components/_grid/board/BoardOutline';
-export { BoardBold } from 'components/_grid/board/BoardBold';
-export { DashboardTwotone } from 'components/_grid/dashboard/DashboardTwotone';
-export { TableTwotone } from 'components/_grid/table/TableTwotone';
+export { BoardOutline } from 'components/_grid/BoardOutline';
+export { BoardBold } from 'components/_grid/BoardBold';
+export { DashboardTwotone } from 'components/_grid/DashboardTwotone';
+export { CubeOutline } from 'components/_grid/CubeOutline';
+export { DiscoverOutline } from 'components/_grid/DiscoverOutline';
+export { FilterCancelOutline } from 'components/_grid/FilterCancelOutline';
+export { FilterEditOutline } from 'components/_grid/FilterEditOutline';
+export { FilterSearchOutline } from 'components/_grid/FilterSearchOutline';
+export { WifiOutline } from 'components/_grid/WifiOutline';
+export { HomeWifiOutline } from 'components/_grid/HomeWifiOutline';
+export { TriangleOutline } from 'components/_grid/TriangleOutline';
 
 // learning
 export { TeacherOutline } from 'components/_learning/teacher/TeacherOutline';
@@ -87,10 +95,11 @@ export { CheckmarkBold } from 'components/_like/checkmark/CheckmarkBold';
 export { LocationOutline } from 'components/_location/location/LocationOutline';
 
 // mails
-export { MailTwotone } from 'components/_mails/mail/MailTwotone';
-export { CallOutline } from 'components/_mails/call/CallOutline';
-export { SmsTwotone } from 'components/_mails/sms/SmsTwotone';
-export { MailSendingTwotone } from 'components/_mails/mail/MailSendingTwotone';
+export { MailTwotone } from 'components/_mails/MailTwotone';
+export { CallOutline } from 'components/_mails/CallOutline';
+export { SmsTwotone } from 'components/_mails/SmsTwotone';
+export { MailSendingTwotone } from 'components/_mails/MailSendingTwotone';
+export { SendOutline } from 'components/_mails/SendOutline';
 
 // notification
 export { NotificationOutline } from 'components/_notification/notification/NotificationOutline';
@@ -99,7 +108,8 @@ export { NotificationOutline } from 'components/_notification/notification/Notif
 export { GitArrowOutline } from 'components/_programing/git-arrow/GitArrowOutline';
 
 // security
-export { SecuritySafeOutline } from 'components/_security/security-safe/SecuritySafeOutline';
+export { VerifyOutline } from 'components/_security/VerifyOutline';
+export { SecuritySafeOutline } from 'components/_security/SecuritySafeOutline';
 
 // settings
 export { SettingsBold } from 'components/_settings/settings/SettingsBold';
