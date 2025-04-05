@@ -1,8 +1,9 @@
 import { Meta, StoryObj } from '@storybook/react';
 
-import { ShopTwotone } from './shop/ShopTwotone';
-
 import StoryTemplate, { SymbolComponent } from 'components/StoryTemplate';
+
+import { ShopTwotone } from './ShopTwotone';
+import { ShopOutline } from './ShopOutline';
 
 const meta: Meta = {
     title: 'Shop',
@@ -16,6 +17,10 @@ const symbols: SymbolComponent[] = [
     {
         Component: ShopTwotone,
         name: 'ShopTwotone',
+    },
+    {
+        Component: ShopOutline,
+        name: 'ShopOutline',
     },
 ];
 

@@ -1,11 +1,12 @@
 import { Meta, StoryObj } from '@storybook/react';
 
-import { AwardTwotone } from './award/AwardTwotone';
-import { CheckmarkBold } from './checkmark/CheckmarkBold';
-import { HandLikeTwotone } from './hand-like/HandLikeTwotone';
-import { StarBold } from './star/StarBold';
-
 import StoryTemplate, { SymbolComponent } from 'components/StoryTemplate';
+
+import { AwardTwotone } from './AwardTwotone';
+import { CheckmarkBold } from './CheckmarkBold';
+import { HandLikeTwotone } from './HandLikeTwotone';
+import { StarBold } from './StarBold';
+import { StarOutline } from './StarOutline';
 
 const meta: Meta = {
     title: 'Like',
@@ -31,6 +32,10 @@ const symbols: SymbolComponent[] = [
     {
         Component: StarBold,
         name: 'StarBold',
+    },
+    {
+        Component: StarOutline,
+        name: 'StarOutline',
     },
 ];
 

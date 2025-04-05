@@ -1,3 +1,10 @@
+// analytics
+export { ChartOutline } from 'components/_analytics/ChartOutline';
+export { ChartColumnsOutline } from 'components/_analytics/ChartColumnsOutline';
+export { ChartLineOutline } from 'components/_analytics/ChartLineOutline';
+export { StateUpOutline } from 'components/_analytics/StateUpOutline';
+export { TrendsUpOutline } from 'components/_analytics/TrendsUpOutline';
+
 // archive
 export { ArchiveTickOutline } from 'components/_archive/archive-tick/ArchiveTickOutline';
 
@@ -86,10 +93,11 @@ export { TriangleOutline } from 'components/_grid/TriangleOutline';
 export { TeacherOutline } from 'components/_learning/teacher/TeacherOutline';
 
 // like
-export { HandLikeTwotone } from 'components/_like/hand-like/HandLikeTwotone';
-export { AwardTwotone } from 'components/_like/award/AwardTwotone';
-export { StarBold } from 'components/_like/star/StarBold';
-export { CheckmarkBold } from 'components/_like/checkmark/CheckmarkBold';
+export { HandLikeTwotone } from 'components/_like/HandLikeTwotone';
+export { AwardTwotone } from 'components/_like/AwardTwotone';
+export { StarBold } from 'components/_like/StarBold';
+export { CheckmarkBold } from 'components/_like/CheckmarkBold';
+export { StarOutline } from 'components/_like/StarOutline';
 
 // location
 export { LocationOutline } from 'components/_location/location/LocationOutline';
@@ -116,19 +124,21 @@ export { SettingsBold } from 'components/_settings/settings/SettingsBold';
 export { SettingsOutline } from 'components/_settings/settings/SettingsOutline';
 
 // shop
-export { ShopTwotone } from 'components/_shop/shop/ShopTwotone';
+export { ShopTwotone } from 'components/_shop/ShopTwotone';
+export { ShopOutline } from 'components/_shop/ShopOutline';
 
 // users
-export { AccountOutline } from 'components/_users/account/AccountOutline';
-export { AddUserBold } from 'components/_users/add-user/AddUserBold';
-export { UsersTwotone } from 'components/_users/users/UsersTwotone';
-export { UsersBold } from 'components/_users/users/UsersBold';
-export { LoginTwotone } from 'components/_users/login/LoginTwotone';
-export { LogoutOutline } from 'components/_users/logout/LogoutOutline';
-export { SignupTwotone } from 'components/_users/signup/SignupTwotone';
-export { EditUserTwotone } from 'components/_users/edit-user/EditUserTwotone';
-export { UserTwotone } from 'components/_users/user/UserTwotone';
-export { BirthdayOutline } from 'components/_users/birthday/BirthdayOutline';
+export { AccountOutline } from 'components/_users/AccountOutline';
+export { AddUserBold } from 'components/_users/AddUserBold';
+export { UsersTwotone } from 'components/_users/UsersTwotone';
+export { UsersBold } from 'components/_users/UsersBold';
+export { LoginTwotone } from 'components/_users/LoginTwotone';
+export { LogoutOutline } from 'components/_users/LogoutOutline';
+export { SignupTwotone } from 'components/_users/SignupTwotone';
+export { EditUserTwotone } from 'components/_users/EditUserTwotone';
+export { UserTwotone } from 'components/_users/UserTwotone';
+export { BirthdayOutline } from 'components/_users/BirthdayOutline';
+export { UserCardOutline } from 'components/_users/UserCardOutline';
 
 // weather
 export { SunOutline } from 'components/_weather/sun/SunOutline';

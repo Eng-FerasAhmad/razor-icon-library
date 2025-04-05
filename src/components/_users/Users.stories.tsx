@@ -1,17 +1,18 @@
 import { Meta, StoryObj } from '@storybook/react';
 
-import { AccountOutline } from './account/AccountOutline';
-import { AddUserBold } from './add-user/AddUserBold';
-import { EditUserTwotone } from './edit-user/EditUserTwotone';
-import { SignupTwotone } from './signup/SignupTwotone';
-import { UserTwotone } from './user/UserTwotone';
-import { UsersTwotone } from './users/UsersTwotone';
-import { UsersBold } from './users/UsersBold';
-import { LoginTwotone } from './login/LoginTwotone';
-import { LogoutOutline } from './logout/LogoutOutline';
-import { BirthdayOutline } from './birthday/BirthdayOutline';
-
 import StoryTemplate, { SymbolComponent } from 'components/StoryTemplate';
+
+import { AccountOutline } from './AccountOutline';
+import { AddUserBold } from './AddUserBold';
+import { EditUserTwotone } from './EditUserTwotone';
+import { SignupTwotone } from './SignupTwotone';
+import { UserTwotone } from './UserTwotone';
+import { UsersTwotone } from './UsersTwotone';
+import { UsersBold } from './UsersBold';
+import { LoginTwotone } from './LoginTwotone';
+import { LogoutOutline } from './LogoutOutline';
+import { BirthdayOutline } from './BirthdayOutline';
+import { UserCardOutline } from './UserCardOutline';
 
 const meta: Meta = {
     title: 'Users',
@@ -61,6 +62,10 @@ const symbols: SymbolComponent[] = [
     {
         Component: BirthdayOutline,
         name: 'BirthdayOutline',
+    },
+    {
+        Component: UserCardOutline,
+        name: 'UserCardOutline',
     },
 ];
 
