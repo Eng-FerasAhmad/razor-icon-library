@@ -1,4 +1,4 @@
-import{j as n}from"./jsx-runtime-Cf8x2fCZ.js";import{useMDXComponents as i}from"./index-g1RYzhTK.js";import{M as o}from"./index-C_fDAEwD.js";import"./index-yBjzXJbu.js";import"./index-Dh8cFXwY.js";import"./iframe-3YsHXWEh.js";import"./index-fNjTmf9T.js";import"./index-CXQShRbs.js";import"./index-DrFu-skq.js";function r(s){const e={a:"a",code:"code",h2:"h2",h3:"h3",h4:"h4",hr:"hr",li:"li",p:"p",pre:"pre",strong:"strong",ul:"ul",...i(),...s.components};return n.jsxs(n.Fragment,{children:[n.jsx(o,{title:"Get Started"}),`
+import{j as n}from"./jsx-runtime-Cf8x2fCZ.js";import{useMDXComponents as i}from"./index-g1RYzhTK.js";import{M as o}from"./index-CO775jdV.js";import"./index-yBjzXJbu.js";import"./index-Dh8cFXwY.js";import"./iframe-BxPcjz4H.js";import"./index-fNjTmf9T.js";import"./index-CXQShRbs.js";import"./index-DrFu-skq.js";function r(s){const e={a:"a",code:"code",h2:"h2",h3:"h3",h4:"h4",hr:"hr",li:"li",p:"p",pre:"pre",strong:"strong",ul:"ul",...i(),...s.components};return n.jsxs(n.Fragment,{children:[n.jsx(o,{title:"Get Started"}),`
 `,n.jsx("div",{style:{width:"fit-content",margin:"auto"},children:n.jsx("h1",{children:"Razor Icons Library"})}),`
 `,n.jsx(e.hr,{}),`
 `,n.jsx(e.p,{children:`This Library is a collection of custom icons. The icon components are documented and showcased using Storybook,
@@ -9,6 +9,11 @@ providing an interactive environment for testing and visualization.`}),`
 `,n.jsxs(e.li,{children:["Repository: ",n.jsx(e.a,{href:"https://github.com/Eng-FerasAhmad/razor-icon-library",rel:"nofollow",children:"GitHub"})]}),`
 `]}),`
 `,n.jsx(e.pre,{children:n.jsx(e.code,{className:"language-js",children:`npm i razor-icon-library
+`})}),`
+`,n.jsx(e.h2,{id:"usage",children:"Usage"}),`
+`,n.jsx(e.pre,{children:n.jsx(e.code,{className:"language-js",children:`import { IconName } from 'razor-icon-library';
+
+<IconName size={24} color="#207955"/>
 `})}),`
 `,n.jsx(e.h2,{id:"getting-started",children:"Getting Started"}),`
 `,n.jsx(e.p,{children:`To use this library, you can browse through the icons listed in the sidebar.
