@@ -1,10 +1,11 @@
 import { Meta, StoryObj } from '@storybook/react';
 
-import { VisaCardOutline } from './visa-card/VisaCardOutline';
-import { VisaCardTwotone } from './visa-card/VisaCardTwotone';
-import { RequestsBold } from './requests/RequestsBold';
-
 import StoryTemplate, { SymbolComponent } from 'components/StoryTemplate';
+
+import { VisaCardOutline } from './VisaCardOutline';
+import { VisaCardTwotone } from './VisaCardTwotone';
+import { RequestsBold } from './RequestsBold';
+import { RequestsOutline } from './RequestsOutline';
 
 const meta: Meta = {
     title: 'Business',
@@ -26,6 +27,10 @@ const symbols: SymbolComponent[] = [
     {
         Component: RequestsBold,
         name: 'RequestsBold',
+    },
+    {
+        Component: RequestsOutline,
+        name: 'RequestsOutline',
     },
 ];
 

@@ -1,8 +1,10 @@
 import { Meta, StoryObj } from '@storybook/react';
 
-import { MicroscopeOutline } from './microscope/MicroscopeOutline';
-
 import StoryTemplate, { SymbolComponent } from 'components/StoryTemplate';
+import { WifiOutline } from 'components/_device/WifiOutline';
+import { HomeWifiOutline } from 'components/_device/HomeWifiOutline';
+
+import { MicroscopeOutline } from './MicroscopeOutline';
 
 const meta: Meta = {
     title: 'Device',
@@ -16,6 +18,14 @@ const symbols: SymbolComponent[] = [
     {
         Component: MicroscopeOutline,
         name: 'MicroscopeOutline',
+    },
+    {
+        Component: WifiOutline,
+        name: 'WifiOutline',
+    },
+    {
+        Component: HomeWifiOutline,
+        name: 'HomeWifiOutline',
     },
 ];
 

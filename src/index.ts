@@ -35,9 +35,10 @@ export { InstagramOutline } from 'components/_brands/InstegramOutline';
 export { QuestionOutline } from 'components/_building/question/QuestionOutline';
 
 // business
-export { VisaCardTwotone } from 'components/_business/visa-card/VisaCardTwotone';
-export { VisaCardOutline } from 'components/_business/visa-card/VisaCardOutline';
-export { RequestsBold } from 'components/_business/requests/RequestsBold';
+export { VisaCardTwotone } from 'components/_business/VisaCardTwotone';
+export { VisaCardOutline } from 'components/_business/VisaCardOutline';
+export { RequestsBold } from 'components/_business/RequestsBold';
+export { RequestsOutline } from 'components/_business/RequestsOutline';
 
 // calendar
 export { CalendarBold } from 'components/_calendar/calendar/CalendarBold';
@@ -58,7 +59,7 @@ export { WizardTwotone } from 'components/_delivery/wizard/WizardTwotone';
 export { ThemeTwotone } from 'components/_design/theme/ThemeTwotone';
 
 // device
-export { MicroscopeOutline } from 'components/_device/microscope/MicroscopeOutline';
+export { MicroscopeOutline } from 'components/_device/MicroscopeOutline';
 
 // essential
 export { MenuOutline } from 'components/_essential/menu/MenuOutline';
@@ -66,15 +67,16 @@ export { AnalyticsTwotone } from 'components/_essential/analytics/AnalyticsTwoto
 export { BurgerOutline } from 'components/_essential/burger/Burger';
 
 // files
-export { AddCircleOutline } from 'components/_files/add-circle/AddCircleOutline';
-export { CloseOutline } from 'components/_files/close/CloseOutline';
-export { DeleteOutline } from 'components/_files/delete/DeleteOutline';
-export { EditOutline } from 'components/_files/edit/EditOutline';
-export { GalleryTwotone } from 'components/_files/gallery/GalleryTwotone';
-export { GalleryBold } from 'components/_files/gallery/GalleryBold';
-export { GalleryOutline } from 'components/_files/gallery/GalleryOutline';
-export { SearchOutline } from 'components/_files/search/SearchOutline';
+export { AddCircleOutline } from 'components/_files/AddCircleOutline';
+export { CloseOutline } from 'components/_files/CloseOutline';
+export { DeleteOutline } from 'components/_files/DeleteOutline';
+export { EditOutline } from 'components/_files/EditOutline';
+export { GalleryTwotone } from 'components/_files/GalleryTwotone';
+export { GalleryBold } from 'components/_files/GalleryBold';
+export { GalleryOutline } from 'components/_files/GalleryOutline';
+export { SearchOutline } from 'components/_files/SearchOutline';
 export { CheckListOutline } from 'components/_files/CheckListOutline';
+export { SortOutline } from 'components/_files/SortOutline';
 
 // grid
 export { BoardOutline } from 'components/_grid/BoardOutline';
@@ -82,11 +84,11 @@ export { BoardBold } from 'components/_grid/BoardBold';
 export { DashboardTwotone } from 'components/_grid/DashboardTwotone';
 export { CubeOutline } from 'components/_grid/CubeOutline';
 export { DiscoverOutline } from 'components/_grid/DiscoverOutline';
-export { FilterCancelOutline } from 'components/_grid/FilterCancelOutline';
-export { FilterEditOutline } from 'components/_grid/FilterEditOutline';
-export { FilterSearchOutline } from 'components/_grid/FilterSearchOutline';
-export { WifiOutline } from 'components/_grid/WifiOutline';
-export { HomeWifiOutline } from 'components/_grid/HomeWifiOutline';
+export { FilterCancelOutline } from 'components/_files/FilterCancelOutline';
+export { FilterEditOutline } from 'components/_files/FilterEditOutline';
+export { FilterSearchOutline } from 'components/_files/FilterSearchOutline';
+export { WifiOutline } from 'components/_device/WifiOutline';
+export { HomeWifiOutline } from 'components/_device/HomeWifiOutline';
 export { TriangleOutline } from 'components/_grid/TriangleOutline';
 
 // learning

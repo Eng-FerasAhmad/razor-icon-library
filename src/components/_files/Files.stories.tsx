@@ -1,17 +1,20 @@
 import { Meta, StoryObj } from '@storybook/react';
 
-import { AddCircleOutline } from './add-circle/AddCircleOutline';
-import { CloseOutline } from './close/CloseOutline';
-import { DeleteOutline } from './delete/DeleteOutline';
-import { EditOutline } from './edit/EditOutline';
-import { SearchOutline } from './search/SearchOutline';
-
-import { GalleryOutline } from 'components/_files/gallery/GalleryOutline';
-import { GalleryTwotone } from 'components/_files/gallery/GalleryTwotone';
-import { GalleryBold } from 'components/_files/gallery/GalleryBold';
+import { GalleryOutline } from 'components/_files/GalleryOutline';
+import { GalleryTwotone } from 'components/_files/GalleryTwotone';
+import { GalleryBold } from 'components/_files/GalleryBold';
 import StoryTemplate, { SymbolComponent } from 'components/StoryTemplate';
+import { FilterCancelOutline } from 'components/_files/FilterCancelOutline';
+import { FilterEditOutline } from 'components/_files/FilterEditOutline';
+import { FilterSearchOutline } from 'components/_files/FilterSearchOutline';
 
+import { AddCircleOutline } from './AddCircleOutline';
+import { CloseOutline } from './CloseOutline';
+import { DeleteOutline } from './DeleteOutline';
+import { EditOutline } from './EditOutline';
+import { SearchOutline } from './SearchOutline';
 import { CheckListOutline } from './CheckListOutline';
+import { SortOutline } from './SortOutline';
 
 const meta: Meta = {
     title: 'File',
@@ -57,6 +60,22 @@ const symbols: SymbolComponent[] = [
     {
         Component: CheckListOutline,
         name: 'CheckListOutline',
+    },
+    {
+        Component: FilterCancelOutline,
+        name: 'FilterCancelOutline',
+    },
+    {
+        Component: FilterEditOutline,
+        name: 'FilterEditOutline',
+    },
+    {
+        Component: FilterSearchOutline,
+        name: 'FilterSearchOutline',
+    },
+    {
+        Component: SortOutline,
+        name: 'SortOutline',
     },
 ];
 
