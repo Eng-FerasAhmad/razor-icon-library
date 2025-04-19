@@ -15,6 +15,7 @@ import { EditOutline } from './EditOutline';
 import { SearchOutline } from './SearchOutline';
 import { CheckListOutline } from './CheckListOutline';
 import { SortOutline } from './SortOutline';
+import { AddOutline } from './AddOutline';
 
 const meta: Meta = {
     title: 'File',
@@ -76,6 +77,10 @@ const symbols: SymbolComponent[] = [
     {
         Component: SortOutline,
         name: 'SortOutline',
+    },
+    {
+        Component: AddOutline,
+        name: 'AddOutline',
     },
 ];
 

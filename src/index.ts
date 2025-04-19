@@ -77,6 +77,7 @@ export { GalleryOutline } from 'components/_files/GalleryOutline';
 export { SearchOutline } from 'components/_files/SearchOutline';
 export { CheckListOutline } from 'components/_files/CheckListOutline';
 export { SortOutline } from 'components/_files/SortOutline';
+export { AddOutline } from 'components/_files/AddOutline';
 
 // grid
 export { BoardOutline } from 'components/_grid/BoardOutline';
