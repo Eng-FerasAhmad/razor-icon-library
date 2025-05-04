@@ -17,6 +17,7 @@ import { CheckListOutline } from './CheckListOutline';
 import { SortOutline } from './SortOutline';
 import { AddOutline } from './AddOutline';
 import { NotesOutline } from './NotesOutline';
+import { EditOutline } from './EditOutline';
 
 const meta: Meta = {
     title: 'File',
@@ -86,6 +87,10 @@ const symbols: SymbolComponent[] = [
     {
         Component: NotesOutline,
         name: 'NotesOutline',
+    },
+    {
+        Component: EditOutline,
+        name: 'EditOutline',
     },
 ];
 

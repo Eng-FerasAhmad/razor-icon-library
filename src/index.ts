@@ -41,12 +41,13 @@ export { RequestsBold } from 'components/_business/RequestsBold';
 export { RequestsOutline } from 'components/_business/RequestsOutline';
 
 // calendar
-export { CalendarBold } from 'components/_calendar/calendar/CalendarBold';
-export { CalendarEditTwotone } from 'components/_calendar/calendar-edit/CalendarEditTwotone';
-export { CalendarCheckTwotone } from 'components/_calendar/calendar-check/CalendarCheckTwotone';
-export { ClockOutline } from 'components/_calendar/clock/ClockOutline';
-export { ClockTwotone } from 'components/_calendar/clock/ClockTwotone';
-export { TimerBulk } from 'components/_calendar/timer/TimerBulk';
+export { CalendarBold } from 'components/_calendar/CalendarBold';
+export { CalendarEditTwotone } from 'components/_calendar/CalendarEditTwotone';
+export { CalendarCheckTwotone } from 'components/_calendar/CalendarCheckTwotone';
+export { ClockOutline } from 'components/_calendar/ClockOutline';
+export { ClockTwotone } from 'components/_calendar/ClockTwotone';
+export { TimerBulk } from 'components/_calendar/TimerBulk';
+export { TimerOutline } from 'components/_calendar/TimerOutline';
 
 // cars
 export { ShipTwotone } from 'components/_cars/ship/ShipTwotone';
@@ -62,9 +63,10 @@ export { ThemeTwotone } from 'components/_design/theme/ThemeTwotone';
 export { MicroscopeOutline } from 'components/_device/MicroscopeOutline';
 
 // essential
-export { MenuOutline } from 'components/_essential/menu/MenuOutline';
-export { AnalyticsTwotone } from 'components/_essential/analytics/AnalyticsTwotone';
-export { BurgerOutline } from 'components/_essential/burger/Burger';
+export { MenuOutline } from 'components/_essential/MenuOutline';
+export { AnalyticsTwotone } from 'components/_essential/AnalyticsTwotone';
+export { BurgerOutline } from 'components/_essential/Burger';
+export { CoffeeOutline } from 'components/_essential/CoffeeOutline';
 
 // files
 export { AddCircleOutline } from 'components/_files/AddCircleOutline';
@@ -79,6 +81,7 @@ export { SortOutline } from 'components/_files/SortOutline';
 export { AddOutline } from 'components/_files/AddOutline';
 export { NotesOutline } from 'components/_files/NotesOutline';
 export { EditTwotone } from 'components/_files/EditTwotone';
+export { EditOutline } from 'components/_files/EditOutline';
 
 // grid
 export { BoardOutline } from 'components/_grid/BoardOutline';
@@ -138,7 +141,6 @@ export { UsersTwotone } from 'components/_users/UsersTwotone';
 export { UsersBold } from 'components/_users/UsersBold';
 export { LoginTwotone } from 'components/_users/LoginTwotone';
 export { LogoutOutline } from 'components/_users/LogoutOutline';
-export { SignupTwotone } from 'components/_users/SignupTwotone';
 export { EditUserTwotone } from 'components/_users/EditUserTwotone';
 export { UserTwotone } from 'components/_users/UserTwotone';
 export { BirthdayOutline } from 'components/_users/BirthdayOutline';

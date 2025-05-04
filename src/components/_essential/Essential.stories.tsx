@@ -1,10 +1,11 @@
 import { Meta, StoryObj } from '@storybook/react';
 
-import { MenuOutline } from './menu/MenuOutline';
-import { AnalyticsTwotone } from './analytics/AnalyticsTwotone';
-import { BurgerOutline } from './burger/Burger';
-
 import StoryTemplate, { SymbolComponent } from 'components/StoryTemplate';
+
+import { MenuOutline } from './MenuOutline';
+import { AnalyticsTwotone } from './AnalyticsTwotone';
+import { BurgerOutline } from './Burger';
+import { CoffeeOutline } from './CoffeeOutline';
 
 const meta: Meta = {
     title: 'Essential',
@@ -26,6 +27,10 @@ const symbols: SymbolComponent[] = [
     {
         Component: BurgerOutline,
         name: 'BurgerOutline',
+    },
+    {
+        Component: CoffeeOutline,
+        name: 'CoffeeOutline',
     },
 ];
 

@@ -1,13 +1,14 @@
 import { Meta, StoryObj } from '@storybook/react';
 
-import { CalendarBold } from './calendar/CalendarBold';
-import { CalendarCheckTwotone } from './calendar-check/CalendarCheckTwotone';
-import { CalendarEditTwotone } from './calendar-edit/CalendarEditTwotone';
-import { TimerBulk } from './timer/TimerBulk';
-import { ClockOutline } from './clock/ClockOutline';
-import { ClockTwotone } from './clock/ClockTwotone';
-
 import StoryTemplate, { SymbolComponent } from 'components/StoryTemplate';
+
+import { CalendarBold } from './CalendarBold';
+import { CalendarCheckTwotone } from './CalendarCheckTwotone';
+import { CalendarEditTwotone } from './CalendarEditTwotone';
+import { TimerBulk } from './TimerBulk';
+import { ClockOutline } from './ClockOutline';
+import { ClockTwotone } from './ClockTwotone';
+import { TimerOutline } from './TimerOutline';
 
 const meta: Meta = {
     title: 'Calendar',
@@ -41,6 +42,10 @@ const symbols: SymbolComponent[] = [
     {
         Component: ClockTwotone,
         name: 'ClockTwotone',
+    },
+    {
+        Component: TimerOutline,
+        name: 'TimerOutline',
     },
 ];
 

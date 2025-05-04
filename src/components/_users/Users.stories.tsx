@@ -5,7 +5,6 @@ import StoryTemplate, { SymbolComponent } from 'components/StoryTemplate';
 import { AccountOutline } from './AccountOutline';
 import { AddUserBold } from './AddUserBold';
 import { EditUserTwotone } from './EditUserTwotone';
-import { SignupTwotone } from './SignupTwotone';
 import { UserTwotone } from './UserTwotone';
 import { UsersTwotone } from './UsersTwotone';
 import { UsersBold } from './UsersBold';
@@ -13,6 +12,7 @@ import { LoginTwotone } from './LoginTwotone';
 import { LogoutOutline } from './LogoutOutline';
 import { BirthdayOutline } from './BirthdayOutline';
 import { UserCardOutline } from './UserCardOutline';
+import { UserOutline } from './UserOutline';
 
 const meta: Meta = {
     title: 'Users',
@@ -34,10 +34,6 @@ const symbols: SymbolComponent[] = [
     {
         Component: EditUserTwotone,
         name: 'EditUserTwotone',
-    },
-    {
-        Component: SignupTwotone,
-        name: 'SignupTwotone',
     },
     {
         Component: UserTwotone,
@@ -66,6 +62,10 @@ const symbols: SymbolComponent[] = [
     {
         Component: UserCardOutline,
         name: 'UserCardOutline',
+    },
+    {
+        Component: UserOutline,
+        name: 'UserOutline',
     },
 ];
 
