@@ -11,11 +11,12 @@ import { FilterSearchOutline } from 'components/_files/FilterSearchOutline';
 import { AddCircleOutline } from './AddCircleOutline';
 import { CloseOutline } from './CloseOutline';
 import { DeleteOutline } from './DeleteOutline';
-import { EditOutline } from './EditOutline';
+import { EditTwotone } from './EditTwotone';
 import { SearchOutline } from './SearchOutline';
 import { CheckListOutline } from './CheckListOutline';
 import { SortOutline } from './SortOutline';
 import { AddOutline } from './AddOutline';
+import { NotesOutline } from './NotesOutline';
 
 const meta: Meta = {
     title: 'File',
@@ -39,8 +40,8 @@ const symbols: SymbolComponent[] = [
         name: 'DeleteOutline',
     },
     {
-        Component: EditOutline,
-        name: 'EditOutline',
+        Component: EditTwotone,
+        name: 'EditTwotone',
     },
     {
         Component: GalleryTwotone,
@@ -81,6 +82,10 @@ const symbols: SymbolComponent[] = [
     {
         Component: AddOutline,
         name: 'AddOutline',
+    },
+    {
+        Component: NotesOutline,
+        name: 'NotesOutline',
     },
 ];
 

@@ -1,14 +1,11 @@
 import { ReactElement } from 'react';
 
-interface CustomIconProps {
-    size?: number;
-    color?: string;
-}
+import { IconProps } from 'components/types';
 
 export function SortOutline({
     size = 24,
     color = '#171717',
-}: CustomIconProps): ReactElement {
+}: IconProps): ReactElement {
     return (
         <svg
             width={size}

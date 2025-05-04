@@ -70,7 +70,6 @@ export { BurgerOutline } from 'components/_essential/burger/Burger';
 export { AddCircleOutline } from 'components/_files/AddCircleOutline';
 export { CloseOutline } from 'components/_files/CloseOutline';
 export { DeleteOutline } from 'components/_files/DeleteOutline';
-export { EditOutline } from 'components/_files/EditOutline';
 export { GalleryTwotone } from 'components/_files/GalleryTwotone';
 export { GalleryBold } from 'components/_files/GalleryBold';
 export { GalleryOutline } from 'components/_files/GalleryOutline';
@@ -78,6 +77,8 @@ export { SearchOutline } from 'components/_files/SearchOutline';
 export { CheckListOutline } from 'components/_files/CheckListOutline';
 export { SortOutline } from 'components/_files/SortOutline';
 export { AddOutline } from 'components/_files/AddOutline';
+export { NotesOutline } from 'components/_files/NotesOutline';
+export { EditTwotone } from 'components/_files/EditTwotone';
 
 // grid
 export { BoardOutline } from 'components/_grid/BoardOutline';

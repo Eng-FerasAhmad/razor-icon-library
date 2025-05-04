@@ -1,14 +1,11 @@
 import { ReactElement } from 'react';
 
-interface EditIconProps {
-    size?: number;
-    color?: string;
-}
+import { IconProps } from 'components/types';
 
-export function EditOutline({
+export function EditTwotone({
     size = 24,
     color = '#171717',
-}: EditIconProps): ReactElement {
+}: IconProps): ReactElement {
     return (
         <svg
             width={size}

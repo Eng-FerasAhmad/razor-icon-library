@@ -1,14 +1,11 @@
 import { ReactElement } from 'react';
 
-interface SearchIconProps {
-    size?: number;
-    color?: string;
-}
+import { IconProps } from 'components/types';
 
 export function SearchOutline({
     size = 24,
     color = '#171717',
-}: SearchIconProps): ReactElement {
+}: IconProps): ReactElement {
     return (
         <svg
             width={size}

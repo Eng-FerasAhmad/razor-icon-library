@@ -1,14 +1,11 @@
 import { ReactElement } from 'react';
 
-interface TrashBinSymbolProps {
-    size?: number;
-    color?: string;
-}
+import { IconProps } from 'components/types';
 
 export function DeleteOutline({
     size = 24,
     color = '#171717',
-}: TrashBinSymbolProps): ReactElement {
+}: IconProps): ReactElement {
     return (
         <svg
             width={size}
